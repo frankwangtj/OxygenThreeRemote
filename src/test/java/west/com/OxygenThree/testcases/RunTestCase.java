@@ -27,6 +27,7 @@ public class RunTestCase {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		System.out.println("Start to test--RunTestCase");
+		System.out.println("Add from slave machine");
 	
 	}
 
