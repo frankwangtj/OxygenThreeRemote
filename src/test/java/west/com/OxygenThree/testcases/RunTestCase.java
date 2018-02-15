@@ -29,6 +29,7 @@ public class RunTestCase {
 		System.out.println("Start to test--RunTestCase");
 		//Form master/
 		//One more from master
+		//update from master machine
 	
 	}
 
