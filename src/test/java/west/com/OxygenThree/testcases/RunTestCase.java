@@ -29,6 +29,7 @@ public class RunTestCase {
 		System.out.println("Start to test--RunTestCase");
 		System.out.println("Add from slave machine");
 		//Update at slave after second clone
+		//Update by master machine after cloned
 	
 	}
 
