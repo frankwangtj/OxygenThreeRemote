@@ -30,6 +30,7 @@ public class RunTestCase {
 		System.out.println("Add from slave machine");
 		//Update at slave after second clone
 		//Update by master machine after cloned
+		//update from slave one more time
 	
 	}
 
