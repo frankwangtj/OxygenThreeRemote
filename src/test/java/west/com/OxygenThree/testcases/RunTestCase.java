@@ -28,6 +28,7 @@ public class RunTestCase {
 		driver.manage().window().maximize();
 		System.out.println("Start to test--RunTestCase");
 		System.out.println("Add from slave machine");
+		//Update at slave after second clone
 	
 	}
 
