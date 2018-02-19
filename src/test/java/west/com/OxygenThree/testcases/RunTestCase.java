@@ -33,6 +33,7 @@ public class RunTestCase {
 		//update from slave one more time
 		//Submit update
 		//Modify on slave after USB key setup
+		//Modify and sync with slave
 	
 	}
 
