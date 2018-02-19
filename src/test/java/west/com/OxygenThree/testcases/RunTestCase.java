@@ -5,6 +5,9 @@ import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
+import west.com.OxygenThree.utility.Log;
+import org.apache.log4j.xml.DOMConfigurator;
+import org.apache.log4j.*;
 
 public class RunTestCase {
 	public WebDriver driver;
@@ -22,7 +25,9 @@ public class RunTestCase {
 	public void beforeMethod() {
 		// Configuring Log4j logs, please see the following posts to learn about Log4j Logging
 		// http://www.toolsqa.com/test-case-with-log4j/
-    		// http://www.toolsqa.com/log4j-logging/
+    	// http://www.toolsqa.com/log4j-logging/
+		DOMConfigurator.configure("log4j.xml");
+		
 		System.setProperty("webdriver.gecko.driver","C:\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
@@ -34,11 +39,20 @@ public class RunTestCase {
 		//Submit update
 		//Modify on slave after USB key setup
 		//Modify and sync with slave
+		Log.info("Test started--RunTestCase");
+		Log.debug("output on console");
+		Log.debug("test");
+		Log.error("sth wrong");
+		Log.startTestCase("RunTestCase");
+		Log.endTestCase("RunTestCase");
+		Log.warn("warning");
+		Log.step("step1");
 	
 	}
 
 	@AfterMethod
 	public void afterMethod() {
+		System.out.println("Complete the test-RunTestCase");
 		driver.close();
 	}
 }
