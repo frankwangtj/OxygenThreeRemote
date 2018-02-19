@@ -31,6 +31,7 @@ public class RunTestCase {
 		//Update at slave after second clone
 		//Update by master machine after cloned
 		//update from slave one more time
+		//Submit update
 	
 	}
 
