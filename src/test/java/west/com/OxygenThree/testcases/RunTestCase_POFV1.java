@@ -23,6 +23,8 @@ public class RunTestCase_POFV1 {
 	static WebElement log;
 	static WebElement pwd;
 	static WebElement submit;
+	static WebElement account;
+	static WebElement account_logout;
 	
 
 
@@ -41,7 +43,8 @@ public class RunTestCase_POFV1 {
 		PageFactory.initElements(driver, RunTestCase_POFV1.class);
 		// Once Instantiated, we can now use the above created WebElements
 		
-		OnlineStore_HomePage.lnk_MyAccount(driver).click();
+		//OnlineStore_HomePage.lnk_MyAccount(driver).click();
+		account.click();
 		
 		//OnlineStore_LoginPage.txtbx_UserName(driver).sendKeys("testuser_12345678");
 		log.sendKeys("testuser_12345678");
@@ -50,7 +53,8 @@ public class RunTestCase_POFV1 {
 		//OnlineStore_LoginPage.btn_LogIn(driver).click();
 		submit.click();
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
-		OnlineStore_HomePage.lnk_LogOut(driver).click();
+		//OnlineStore_HomePage.lnk_LogOut(driver).click();
+		account_logout.click();
 		System.out.println(" Logout Successfully.");
 		
 	}
