@@ -23,9 +23,11 @@ public class RunTestCase {
 	// In other way before method is your prerequisites of your main Test Case	
 	@Test
 	public void RunSpecificTestCase() {
+		
 		//driver.get("http://www.google.com");
 		Log.info("Launch onlinestore website");
 		driver.get("http://www.store.demoqa.com");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		OnlineStore_HomePage.lnk_MyAccount(driver).click();
 		OnlineStore_LoginPage.txtbx_UserName(driver).sendKeys("testuser_12345678");
 		OnlineStore_LoginPage.txtbx_Password(driver).sendKeys("Test@123");
