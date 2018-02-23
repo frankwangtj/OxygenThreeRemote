@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import west.com.OxygenThree.pageObjects.OnlineStore_HomePage_POF;
 import west.com.OxygenThree.pageObjects.OnlineStore_LoginPage_POF;
+import west.com.OxygenThree.appModule.OnlineStore_SignIn_Action;
 import west.com.OxygenThree.utility.Log;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
@@ -34,12 +35,16 @@ public class RunTestCase_POFAnnotationSeparate {
 		OnlineStore_HomePage_POF HomePage = PageFactory.initElements(driver, OnlineStore_HomePage_POF.class);
 		OnlineStore_LoginPage_POF LoginPage = PageFactory.initElements(driver, OnlineStore_LoginPage_POF.class);
 		
+		
 		// Once both classes Initialised, use their Web Element Objects
-		HomePage.lnk_MyAccount.click();
-		LoginPage.txtbx_UserName.sendKeys("testuser_12345678");
-		LoginPage.txtbx_Password.sendKeys("Test@123");
-		LoginPage.btn_Login.click();
-		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
+		//HomePage.lnk_MyAccount.click();
+		//LoginPage.txtbx_UserName.sendKeys("testuser_12345678");
+		//LoginPage.txtbx_Password.sendKeys("Test@123");
+		//LoginPage.btn_Login.click();
+		//System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
+		
+		OnlineStore_SignIn_Action.Execute(driver);
+		
 		HomePage.lnk_LogOut.click();
 		System.out.println(" Logout Successfully.");
 		
