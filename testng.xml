@@ -2,7 +2,7 @@
 <suite name="Suite One">
  <test name="Test One">
   		<classes>
-   			<class name="west.com.OxygenThree.testcases.RunTestCase_POFAnnotationSeparate" />      
+   			<class name="west.com.OxygenThree.testcases.RunTestCase_POF_Google" />      
   		</classes>
  	</test>
 </suite>

@@ -12,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import west.com.OxygenThree.pageObjects.OnlineStore_HomePage_POF;
 import west.com.OxygenThree.pageObjects.OnlineStore_LoginPage_POF;
 import west.com.OxygenThree.appModule.OnlineStore_SignIn_Action;
+import west.com.OxygenThree.appModule.OnlineStore_LogOut_Action;
 import west.com.OxygenThree.utility.Log;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
@@ -45,8 +46,9 @@ public class RunTestCase_POFAnnotationSeparate {
 		
 		OnlineStore_SignIn_Action.Execute(driver);
 		
-		HomePage.lnk_LogOut.click();
-		System.out.println(" Logout Successfully.");
+		//HomePage.lnk_LogOut.click();
+		//ystem.out.println(" Logout Successfully.");
+		OnlineStore_LogOut_Action.Execute(driver);
 		
 	}
 	@BeforeMethod
