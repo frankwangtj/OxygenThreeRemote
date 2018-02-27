@@ -48,7 +48,8 @@ public class RunTestCase_POF_Google {
 		// http://www.toolsqa.com/test-case-with-log4j/
 		// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
-		driver = Web.OpenBrowser("Mozilla");		
+		//driver = Web.OpenBrowser("Mozilla");	
+		driver = Web.OpenBrowser("IE");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	}

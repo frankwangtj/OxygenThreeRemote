@@ -25,7 +25,7 @@ public class Web {
 			
 			//
 			//sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
-			sBrowserName=Constant.sBrowserType;
+			//sBrowserName=Constant.sBrowserType;
 			//sProjectName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Project);
 			if(sBrowserName.equals("Mozilla")){
 				//WebDriver driver1;
@@ -52,7 +52,8 @@ public class Web {
 				//--- KEEP in mind, if browser type is IE, we need to setup security and ADD the site to trust zone
 				//---------------------------------------------------------------------------------------------------
 				//WebDriver obj = new InternetExplorerDriver();
-				System.setProperty("webdriver.ie.driver", "F:\\RemoteRepoSquareOne\\OnlineStoreSquareOne\\IEExecutable\\IEDriverServer.exe");
+				//System.setProperty("webdriver.ie.driver", "F:\\RemoteRepoSquareOne\\OnlineStoreSquareOne\\IEExecutable\\IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver",Constant.Path_IE+"\\IEDriverServer.exe");
 				//System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 				driver=new InternetExplorerDriver();
 				Log.info("IE browser started");
@@ -60,8 +61,8 @@ public class Web {
 				driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 				Log.info("Implicit wait applied on the driver for 1 seconds");
 				//Thread.sleep(2000);
-				driver.get(Constant.URL_PMIS);	
-		    	Log.info("PMIS Web application launched successfully");
+				//driver.get(Constant.URL_PMIS);	
+		    	//Log.info("PMIS Web application launched successfully");
 	    
 	        
 	
