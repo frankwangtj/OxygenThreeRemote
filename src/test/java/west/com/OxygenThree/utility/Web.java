@@ -13,6 +13,8 @@ import org.openqa.selenium.os.WindowsUtils;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+
 public class Web {
 	public static WebDriver driver = null;
 	public static WebDriver OpenBrowser(String sBrowserName) throws Exception{
@@ -74,6 +76,31 @@ public class Web {
 	}
 	return driver;
 	}
+	
+	 public static void closeBrowser(WebDriver driver, String sBrowserName) throws Exception{
+		 	//String sBrowserName;
+		 	//sBrowserName=Constant.sBrowserType;
+			try{
+			//sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
+			if(sBrowserName.equals("Mozilla")){
+				Log.info("Closing the FireFox browser");
+				//driver.quit();
+				WindowsUtils.killByName("firefox.exe");
+			 } 
+			else if (sBrowserName.equals("IE")) {
+				driver.close();
+				//WindowsUtils.killByName("iexplorer.exe");
+				Log.info("IE browser is closing");
+				//driver=null;
+				
+			}
+			}catch(Exception e){
+				 Log.error("Class Utils-Web | Method CloseBrowser | Exception desc : "+e.getMessage());
+					e.printStackTrace();
+			 
+	         }
+	 	
+	 }
 }
 
 

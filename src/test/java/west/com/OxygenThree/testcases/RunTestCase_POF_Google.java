@@ -1,6 +1,9 @@
 package west.com.OxygenThree.testcases;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 import west.com.OxygenThree.utility.Web;
 
 import org.testng.annotations.Test;
@@ -19,9 +22,12 @@ public class RunTestCase_POF_Google {
 	public void RunSpecificTestCasePOFAnnotationSeparate() throws InterruptedException {
 				
 		Log.info("Launch google website");
-		driver.get("http://www.google.ca");
+		driver.get("http://10.103.63.19/mis");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//WebElement txtUser=driver.findElement(By.id("txtUser"));
 		
+		//txtUser.sendKeys("admin");
+		driver.close();
 				
 		// This is to Instantiate Home Page and LogIn Page class  
 		//OnlineStore_HomePage_POF HomePage = PageFactory.initElements(driver, OnlineStore_HomePage_POF.class);
@@ -54,10 +60,11 @@ public class RunTestCase_POF_Google {
 	
 	}
 
-	@AfterMethod
-	public void afterMethod() {
+	@AfterMethod (alwaysRun = true)
+	public void afterMethod() throws Exception {
 		System.out.println("Complete the test-RunTestCase PageObjectFactory Annotation Separate For Google");
-		driver.quit();
+		//driver.quit();
+		//Web.closeBrowser(driver, "IE");
 	}
 
 
