@@ -22,11 +22,11 @@ public class RunTestCase_POF_Google {
 	public void RunSpecificTestCasePOFAnnotationSeparate() throws InterruptedException {
 				
 		Log.info("Launch google website");
-		driver.get("http://10.103.63.19/mis");
+		driver.get("http://database1/mis");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		//WebElement txtUser=driver.findElement(By.id("txtUser"));
+		WebElement txtUser=driver.findElement(By.id("txtUser"));
 		
-		//txtUser.sendKeys("admin");
+		txtUser.sendKeys("admin");
 		driver.close();
 				
 		// This is to Instantiate Home Page and LogIn Page class  

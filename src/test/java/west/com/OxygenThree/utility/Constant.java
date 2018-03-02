@@ -46,8 +46,10 @@ public class Constant {
 	
 	//public static final String Path_ScreenShot =System.getProperty("user.dir")+"\\Screenshots\\";
 	public static final String Path_ScreenShot ="F:\\RemoteRepoSquareOne\\OnlineStoreSquareOne\\Screenshots\\";
-	public static final String Path_Geckodriver ="C:\\003_RunningEnvironment\\02_GeckoDriver16\\"; 
-	public static final String Path_IE ="C:\\003_RunningEnvironment\\06_IEExecutable\\IEDriverServer_Win32_2.41.0\\";
-
+	//public static final String Path_Geckodriver ="C:\\003_RunningEnvironment\\02_GeckoDriver16\\"; 
+	//public static final String Path_IE ="C:\\003_RunningEnvironment\\06_IEExecutable\\IEDriverServer_Win32_2.41.0\\";
+	
+	public static final String Path_Geckodriver ="D:\\FRWeb\\003_RunningEnvironment\\02_GeckoDriver16\\"; 
+	public static final String Path_IE ="D:\\FRWeb\\003_RunningEnvironment\\06_IEExecutable\\IEDriverServer_Win32_2.41.0\\";
 
 }
