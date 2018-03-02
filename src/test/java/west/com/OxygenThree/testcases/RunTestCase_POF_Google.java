@@ -28,6 +28,8 @@ public class RunTestCase_POF_Google {
 		
 		txtUser.sendKeys("admin");
 		driver.close();
+		
+		//Test conflict
 				
 		// This is to Instantiate Home Page and LogIn Page class  
 		//OnlineStore_HomePage_POF HomePage = PageFactory.initElements(driver, OnlineStore_HomePage_POF.class);
