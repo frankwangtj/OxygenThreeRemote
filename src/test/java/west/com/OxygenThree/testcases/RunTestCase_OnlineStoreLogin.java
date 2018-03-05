@@ -13,7 +13,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
 import java.util.concurrent.TimeUnit;
 
-public class RunTestCase {
+public class RunTestCase_OnlineStoreLogin {
 	public WebDriver driver;
 	private String sTestCaseName;
 	private int iTestCaseRow;
