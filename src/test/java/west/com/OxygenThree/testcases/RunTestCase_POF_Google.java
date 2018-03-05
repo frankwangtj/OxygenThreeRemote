@@ -27,7 +27,7 @@ public class RunTestCase_POF_Google {
 		WebElement txtUser=driver.findElement(By.id("txtUser"));
 		
 		txtUser.sendKeys("admin");
-		driver.close();
+		//driver.close();
 		
 		//Test conflict
 				
@@ -65,7 +65,7 @@ public class RunTestCase_POF_Google {
 	@AfterMethod (alwaysRun = true)
 	public void afterMethod() throws Exception {
 		System.out.println("Complete the test-RunTestCase PageObjectFactory Annotation Separate For Google");
-		//driver.quit();
+		driver.close();
 		//Web.closeBrowser(driver, "IE");
 	}
 
