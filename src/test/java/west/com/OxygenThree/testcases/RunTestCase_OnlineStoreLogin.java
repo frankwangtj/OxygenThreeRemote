@@ -35,6 +35,7 @@ public class RunTestCase_OnlineStoreLogin {
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 		Thread.sleep(2000);
 		OnlineStore_HomePage.lnk_LogOut(driver).click();
+		OnlineStore_HomePage.lnk_LogOut(driver).click();
 		System.out.println(" Logout Successfully.");
 		
 	}
@@ -71,6 +72,6 @@ public class RunTestCase_OnlineStoreLogin {
 	@AfterMethod
 	public void afterMethod() {
 		System.out.println("Complete the test-RunTestCase");
-		driver.close();
+		driver.quit();
 	}
 }
