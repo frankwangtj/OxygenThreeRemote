@@ -22,7 +22,7 @@ public class RunTestCase_OnlineStoreLogin {
 	// In Before Method, your code will always be the same for every other test case.
 	// In other way before method is your prerequisites of your main Test Case	
 	@Test
-	public void RunSpecificTestCase() {
+	public void RunSpecificTestCase() throws InterruptedException {
 		
 		//driver.get("http://www.google.com");
 		Log.info("Launch onlinestore website");
@@ -33,6 +33,7 @@ public class RunTestCase_OnlineStoreLogin {
 		OnlineStore_LoginPage.txtbx_Password(driver).sendKeys("Test@123");
 		OnlineStore_LoginPage.btn_LogIn(driver).click();
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
+		Thread.sleep(2000);
 		OnlineStore_HomePage.lnk_LogOut(driver).click();
 		System.out.println(" Logout Successfully.");
 		
