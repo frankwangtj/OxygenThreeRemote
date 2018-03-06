@@ -62,9 +62,14 @@ public class RunTestCase_POFAnnotation {
 		txtbx_Password.sendKeys("Test@123");
 		//OnlineStore_LoginPage.btn_LogIn(driver).click();
 		btn_Login.click();
+		Thread.sleep(2000);
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 		//OnlineStore_HomePage.lnk_LogOut(driver).click();
 		lnk_LogOut.click();
+		Thread.sleep(2000);
+		lnk_LogOut.click();
+		Thread.sleep(2000);
+		Thread.sleep(2000);
 		System.out.println(" Logout Successfully.");
 		
 	}
@@ -75,7 +80,7 @@ public class RunTestCase_POFAnnotation {
     	// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
 		
-		System.setProperty("webdriver.gecko.driver","C:\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","D:\\FRWeb\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		System.out.println("Start to test--RunTestCase PageObjectFactory Annotation");
