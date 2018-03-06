@@ -66,6 +66,7 @@ public class RunTestCase_OnlineStoreLogin {
 		//Log.warn("warning");
 		//Log.step("step1");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//Add comment to submit to USB
 	
 	}
 
