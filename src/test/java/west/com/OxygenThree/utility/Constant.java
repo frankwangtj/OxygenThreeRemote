@@ -20,7 +20,7 @@ public class Constant {
 	
 	//Online store Application
     public static final String URL_OnlineStore = "http://www.store.demoqa.com";
-    public static final String Username_OnlineStore = "testuser_1234567";
+    public static final String Username_OnlineStore = "testuser_12345678";
     public static final String Password_OnlineStore ="Test@123";
 	
     
@@ -35,6 +35,7 @@ public class Constant {
 	public static final String sRunBtnInitial="Run";
 	public static final String sErrResult1="Error";
 	public static final String sErrResult2="(0KB)";
+	//public static final String sURL="http://{0}"; parameterlize URL
 	
 	//public setting
 	//public static final String sBrowserType="IE";

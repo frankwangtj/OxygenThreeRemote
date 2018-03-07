@@ -1,22 +1,22 @@
 package west.com.OxygenThree.testcases;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
+import java.text.MessageFormat;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
-
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
+import west.com.OxygenThree.appModule.OnlineStore_LogOut_Action;
+import west.com.OxygenThree.appModule.OnlineStore_SignInWithPara_Action;
 import west.com.OxygenThree.pageObjects.OnlineStore_HomePage_POF;
 import west.com.OxygenThree.pageObjects.OnlineStore_LoginPage_POF;
-import west.com.OxygenThree.appModule.OnlineStore_SignInWithPara_Action;
-import west.com.OxygenThree.appModule.OnlineStore_LogOut_Action;
+import west.com.OxygenThree.utility.Constant;
 import west.com.OxygenThree.utility.Log;
-import org.apache.log4j.xml.DOMConfigurator;
-import org.apache.log4j.*;
-import java.util.concurrent.TimeUnit;
 
 public class RunTestCase_POFAnootationModularParam {
 	static WebDriver driver;
@@ -29,7 +29,11 @@ public class RunTestCase_POFAnootationModularParam {
 	public void RunSpecificTestCasePOFAnnotationSeparate() throws InterruptedException {
 		String sUser="testuser_12345678";
 		String sPass="Test@123";
-				
+		String sProject="OnlineStore";
+		String sURL="URL_"+sProject;
+		//String sValURL=MessageFormat.format(Constant.sURL, sProject);
+		//passing by classes
+		
 		Log.info("Launch onlinestore website");
 		driver.get("http://www.store.demoqa.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
