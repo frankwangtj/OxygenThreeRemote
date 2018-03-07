@@ -54,7 +54,12 @@ public class RunTestCase_POFV1 {
 		submit.click();
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 		//OnlineStore_HomePage.lnk_LogOut(driver).click();
+		Thread.sleep(2000);
+		Thread.sleep(2000);
 		account_logout.click();
+		Thread.sleep(2000);
+		Thread.sleep(2000);
+		Thread.sleep(2000);
 		System.out.println(" Logout Successfully.");
 		
 	}
@@ -65,7 +70,7 @@ public class RunTestCase_POFV1 {
     	// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
 		
-		System.setProperty("webdriver.gecko.driver","C:\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","D:\\FRWeb\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		System.out.println("Start to test--RunTestCase PageObjectFactory Version1");
