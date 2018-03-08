@@ -3,4 +3,7 @@ PageObject Factory			--is done	-----March 7, 2018
 PageObject annotation		--is done	-----March 7, 2018
 ModularDriven Framework		--is done	-----March 7, 2018
 Function Parameter			--is done	-----March 7, 2018
+Implement flexible Config
+ - Constant to specify proj
+ - .txt for config per proj
 ToBeContinue2	

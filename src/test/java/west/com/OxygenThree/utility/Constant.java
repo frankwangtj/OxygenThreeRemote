@@ -15,6 +15,8 @@ package west.com.OxygenThree.utility;
 //##############################################################################################################################
 
 public class Constant {
+	//global setting
+	public static final boolean bDebugMode=true;
 	//Google
 	public static final String URL_Google = "http://www.google.ca";
 	
