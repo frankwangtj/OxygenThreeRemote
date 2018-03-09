@@ -12,6 +12,7 @@ import java.nio.file.Files;
 import java.util.List;
 import west.com.OxygenThree.utility.Constant;
 
+
 public class FileSystems {
 	//##############################################################################################################################
 	//#	Function boolean isFolderExists(String sPath)
@@ -66,5 +67,69 @@ public class FileSystems {
 			throw (e);
 		}
 	}
+	
+	//##############################################################################################################################
+		//#	Function long getFileSize(String sFile)
+		//#	Purpose:	get a file size in KB, MB or GB depends on the actual size 
+		//# Parameters: sFile
+		//#	Return : size of the file in long
+		//#	Author: Frank
+		//#	Created:	September 15, 2017
+		//# Last modified: 
+		//# How to test it
+		//   String sFiler="D:/FRTemp/omni.ja";
+		//   System.out.println(String.valueOf(utility.FileSystems.getFileSize(sFile)));
+		//##############################################################################################################################
+
+		public static long getFileSize(String sPath, String sFile)throws Exception{
+			String sFunction="|Class Utils.FileSystems | Method getFileSize |";
+			String sFullPath;
+			if (Constant.bDebugMode) {
+				System.out.println("Function---"+sFunction+"--- gets Started");
+			}
+			Log.info("Function---"+sFunction+"--- gets Started");
+			sFullPath=sPath+"\\"+sFile;
+			File fTemp=new File(sFullPath);
+			long iSize;
+			String sSize;
+			try{
+				if (fTemp.exists() && fTemp.isFile()) {
+					iSize=fTemp.length();
+					if (Constant.bDebugMode) {
+						sSize=Formating.sizeConverting(iSize);
+						
+						//System.out.println("The File size is "+String.valueOf(iSize));
+						//System.out.println("origin value");
+						//Log.info("The File size is "+String.valueOf(iSize)+" bytes");
+						//System.out.println(Formating.sizeConverting(iSize));
+						//System.out.println("GetSize 1");
+						//Log.info(Formating.sizeConverting(iSize));
+						
+						System.out.println(sSize);
+						Log.info(sSize);
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					return iSize;
+				}
+				else {
+					if (Constant.bDebugMode) {
+						System.out.println("The File--- "+sFile+" ---NOT Exists");
+						Log.info("The File--- "+sFile+" ---NOT Exists");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					iSize=0;
+					return iSize;
+				}
+			}catch (Exception e){
+				if (Constant.bDebugMode) {
+					System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.error(sFunction+"--- Exception desc : "+e.getMessage());
+				Log.info("Function---"+sFunction+"--- gets completed");
+				throw (e);
+			}
+		}
+		
 
 }

@@ -54,3 +54,88 @@
 2018-03-09 07:53:04,665 INFO  [Log] The folder--- D:\FRWeb\004_FileSystemPractice\TestFolder\test ---NOT Exists 
 2018-03-09 07:53:04,665 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
 2018-03-09 07:53:04,665 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 08:43:42,607 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 08:43:42,613 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 08:43:42,613 INFO  [Log] The File size is 46560 bytes 
+2018-03-09 08:43:42,622 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 08:43:42,623 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 08:43:42,623 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 08:43:42,623 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 08:43:42,623 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 08:43:42,623 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 08:43:42,623 INFO  [Log] 45.47 Kb 
+2018-03-09 08:43:42,623 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 08:43:42,624 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 08:58:09,172 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 08:58:09,177 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 08:58:09,178 INFO  [Log] The File size is 46560 bytes 
+2018-03-09 08:58:09,187 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 08:58:09,187 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 08:58:09,188 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 08:58:09,188 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 08:58:09,188 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 08:58:09,188 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 08:58:09,188 INFO  [Log] 45.47 Kb 
+2018-03-09 08:58:09,188 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 08:58:09,189 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:02:00,383 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:02:00,386 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 09:02:00,386 INFO  [Log] The File size is 46560 bytes 
+2018-03-09 09:02:00,392 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:02:00,393 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 09:02:00,393 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:02:00,393 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:02:00,393 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 09:02:00,393 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:02:00,393 INFO  [Log] 45.47 Kb 
+2018-03-09 09:02:00,393 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 09:02:00,394 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:05:48,284 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:05:48,286 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 09:05:48,287 INFO  [Log] The File size is 46560 bytes 
+2018-03-09 09:05:48,293 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:05:48,294 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 09:05:48,294 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:05:48,294 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:05:48,294 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 09:05:48,294 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:05:48,294 INFO  [Log] 45.47 Kb 
+2018-03-09 09:05:48,294 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 09:05:48,295 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:12:36,031 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:12:36,037 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 09:12:36,043 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:12:36,044 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 09:12:36,044 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:12:36,044 INFO  [Log] 45.47 Kb 
+2018-03-09 09:12:36,044 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 09:12:36,044 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:14:21,529 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:14:21,534 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 09:14:21,543 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:14:21,544 INFO  [Log] The size is---45.47 Kb 
+2018-03-09 09:14:21,544 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:14:21,544 INFO  [Log] 45.47 Kb 
+2018-03-09 09:14:21,544 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 09:14:21,545 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:44:28,123 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:44:28,126 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 09:44:28,132 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:44:28,133 INFO  [Log] The size is---1.29 GB 
+2018-03-09 09:44:28,133 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:44:28,133 INFO  [Log] 1.29 GB 
+2018-03-09 09:44:28,133 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 09:44:28,133 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:46:57,411 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:46:57,417 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 09:46:57,426 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets Started 
+2018-03-09 09:46:57,427 INFO  [Log] The size is---16.23 MB 
+2018-03-09 09:46:57,427 INFO  [Log] Function---|Class Utility.Formating | Method sizeConverting |--- gets completed 
+2018-03-09 09:46:57,427 INFO  [Log] 16.23 MB 
+2018-03-09 09:46:57,427 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 09:46:57,427 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:47:49,694 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 09:47:49,699 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets Started 
+2018-03-09 09:47:49,699 INFO  [Log] The File--- testx.txt ---NOT Exists 
+2018-03-09 09:47:49,699 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
+2018-03-09 09:47:49,700 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

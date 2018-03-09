@@ -42,10 +42,23 @@ public class DebugUtils {
 		//Thread.sleep(2000);
 		
 		//Verify Function isFolderExist
-		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\test";
-		Boolean bExist;
+		//-------------------------------------------------------------------------
+		//String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\test";
+		//Boolean bExist;
+		//try {
+		//	bExist=FileSystems.isFolderExists(sFolder);
+			
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//-------------------------------------------------------------------------
+		//Verify Function getFileSize
+		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		String sFile="testx.txt";
+		long lSize;
 		try {
-			bExist=FileSystems.isFolderExists(sFolder);
+			 lSize=FileSystems.getFileSize(sFolder, sFile);
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
