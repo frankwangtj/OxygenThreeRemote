@@ -28,7 +28,7 @@ public class FileSystems {
 
 		
 	public static boolean isFolderExists(String sPath)throws Exception{
-		String sFunction="Class Utils.FileSystems | Method isFolderExists |";
+		String sFunction="|Class Utils.FileSystems | Method isFolderExists |";
 		if (Constant.bDebugMode) {
 			System.out.println("Function---"+sFunction+"--- gets Started");
 		}
@@ -37,23 +37,23 @@ public class FileSystems {
 		boolean bReturn=false;
 		try{
 			if (fTemp.exists() && fTemp.isDirectory()) {
-				System.out.println("The folder "+sPath+" Exists");
-				Log.info("The folder "+sPath+" Exists");
+				Log.info("The folder--- "+sPath+" ---Exists");
 				bReturn=true;
 				if (Constant.bDebugMode) {
-					System.out.println("The folder "+sPath+" Exists");
+					System.out.println("The folder--- "+sPath+" ---Exists");
 					System.out.println("Function---"+sFunction+"--- gets completed");
 				}
+				Log.info("Function---"+sFunction+"--- gets completed");
 				return bReturn;
 			}
 			else {
-				System.out.println("The folder "+sPath+" NOT Exists");
-				Log.info("The folder "+sPath+" NOT Exists");
+				Log.info("The folder--- "+sPath+" ---NOT Exists");
 				bReturn=false;
 				if (Constant.bDebugMode) {
-					System.out.println("The folder "+sPath+" NOT Exists");
+					System.out.println("The folder--- "+sPath+" ---NOT Exists");
 					System.out.println("Function---"+sFunction+"--- gets completed");
 				}
+				Log.info("Function---"+sFunction+"--- gets completed");
 				return bReturn;
 			}
 		}catch (Exception e){
@@ -62,6 +62,7 @@ public class FileSystems {
 				System.out.println("Function---"+sFunction+"--- gets completed");
 			}
 			Log.error(sFunction+" ---Exception desc : "+e.getMessage());
+			Log.info("Function---"+sFunction+"--- gets completed");
 			throw (e);
 		}
 	}

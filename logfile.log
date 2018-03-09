@@ -40,3 +40,17 @@
 2018-03-07 08:36:23,707 INFO  [Log] Launch onlinestore website 
 2018-03-07 08:38:07,660 INFO  [Log] Launch onlinestore website 
 2018-03-07 16:17:42,737 INFO  [Log] Launch onlinestore website 
+2018-03-09 07:47:13,538 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 07:47:13,543 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-09 07:47:13,543 INFO  [Log] The folder--- D:\FRWeb\004_FileSystemPractice\TestFolder ---Exists 
+2018-03-09 07:47:13,544 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 07:51:26,237 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 07:51:26,240 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-09 07:51:26,240 INFO  [Log] The folder--- D:\FRWeb\004_FileSystemPractice\TestFolder ---Exists 
+2018-03-09 07:51:26,240 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-09 07:51:26,241 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 07:53:04,662 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-09 07:53:04,664 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-09 07:53:04,665 INFO  [Log] The folder--- D:\FRWeb\004_FileSystemPractice\TestFolder\test ---NOT Exists 
+2018-03-09 07:53:04,665 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-09 07:53:04,665 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

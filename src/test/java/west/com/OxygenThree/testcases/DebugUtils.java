@@ -5,6 +5,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
 import west.com.OxygenThree.utility.FileSystems;
+import org.apache.log4j.xml.DOMConfigurator;
+import org.apache.log4j.*;
 import west.com.OxygenThree.utility.Log;
 
 public class DebugUtils {
@@ -40,7 +42,7 @@ public class DebugUtils {
 		//Thread.sleep(2000);
 		
 		//Verify Function isFolderExist
-		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\test";
 		Boolean bExist;
 		try {
 			bExist=FileSystems.isFolderExists(sFolder);
@@ -58,7 +60,8 @@ public class DebugUtils {
 		// Configuring Log4j logs, please see the following posts to learn about Log4j Logging
 		// http://www.toolsqa.com/test-case-with-log4j/
     	// http://www.toolsqa.com/log4j-logging/
-		//DOMConfigurator.configure("log4j.xml");
+		//Log4j should be initialize at least once!!!
+		DOMConfigurator.configure("log4j.xml");
 		//System.setProperty("webdriver.gecko.driver","D:\\FRWeb\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
 		//driver = new FirefoxDriver();
 		//driver.manage().window().maximize();
