@@ -5,3 +5,4 @@
 . RunTestCase_POFV1                 		----is working -- March 7, 2018
 . RunTestCase_POFAnootationModularParam		----is working -- March 7, 2018
 . New Fun isFolderExist/DebugUtils			----is working -- March 8, 2018
+. New Fun getFileSize/sizeConverting		----is working -- March 9, 2018

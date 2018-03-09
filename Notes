@@ -1,0 +1,1 @@
+In order to improve performance, when you call a function, call it once and assign to a variable. Never and never call it everywhere!!!
