@@ -149,3 +149,75 @@
 2018-03-12 08:53:43,530 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\SipLog.txt ---Exists 
 2018-03-12 08:53:43,530 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
 2018-03-12 08:53:43,531 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:04:33,457 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:04:33,460 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Started 
+2018-03-12 11:04:33,460 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:04:33,460 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder//Text.txt ---NOT Exists 
+2018-03-12 11:04:33,460 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:04:33,460 INFO  [Log] Source file--- D:\FRWeb\004_FileSystemPractice\TestFolder//Text.txt---is not existed 
+2018-03-12 11:04:33,460 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
+2018-03-12 11:04:33,461 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:06:53,103 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:06:53,106 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Started 
+2018-03-12 11:06:53,106 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:06:53,107 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Text.txt ---NOT Exists 
+2018-03-12 11:06:53,107 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:06:53,107 INFO  [Log] Source file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Text.txt---is not existed 
+2018-03-12 11:06:53,107 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
+2018-03-12 11:06:53,107 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:13:09,656 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:13:09,662 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Started 
+2018-03-12 11:13:09,663 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:13:09,663 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 11:13:09,663 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:13:09,663 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:13:09,663 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\FunTest123.txt ---NOT Exists 
+2018-03-12 11:13:09,663 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:13:09,670 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets succeed 
+2018-03-12 11:13:09,670 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
+2018-03-12 11:13:09,671 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:13:57,265 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:13:57,268 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Started 
+2018-03-12 11:13:57,268 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:13:57,268 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 11:13:57,268 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:13:57,268 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:13:57,268 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\FunTest123.txt ---Exists 
+2018-03-12 11:13:57,269 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:13:57,269 INFO  [Log] Destination file--- D:\FRWeb\004_FileSystemPractice\TestFolder\FunTest123.txt--- Existed 
+2018-03-12 11:13:57,269 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
+2018-03-12 11:13:57,269 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:16:05,061 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:16:05,064 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Started 
+2018-03-12 11:16:05,064 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:16:05,065 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 11:16:05,065 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:16:05,065 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:16:05,065 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\QTP_Test123.txt ---NOT Exists 
+2018-03-12 11:16:05,065 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:16:05,070 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets succeed 
+2018-03-12 11:16:05,070 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
+2018-03-12 11:16:05,071 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:16:39,446 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:16:39,449 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Started 
+2018-03-12 11:16:39,449 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:16:39,449 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 11:16:39,449 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:16:39,450 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:16:39,450 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\QTP_Test123.txt ---Exists 
+2018-03-12 11:16:39,450 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:16:39,450 INFO  [Log] Destination file--- D:\FRWeb\004_FileSystemPractice\TestFolder\QTP_Test123.txt--- Existed 
+2018-03-12 11:16:39,450 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
+2018-03-12 11:16:39,451 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:20:59,996 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Started 
+2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:21:00,003 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 11:21:00,003 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\QTP_Test123.txt ---Exists 
+2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 11:21:00,003 INFO  [Log] Destination file--- D:\FRWeb\004_FileSystemPractice\TestFolder\QTP_Test123.txt--- Existed 
+2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Failed 
+2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
+2018-03-12 11:21:00,004 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

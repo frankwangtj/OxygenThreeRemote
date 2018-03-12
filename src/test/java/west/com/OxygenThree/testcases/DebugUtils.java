@@ -65,19 +65,49 @@ public class DebugUtils {
 		//	// TODO Auto-generated catch block
 		//	e.printStackTrace();
 		//}
+		//------------------------------------------------------------------------
 		
 		//Verify Function isFileExists
-				String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\SipLog.txt";
-				
-				boolean bExists;
-				try {
-					 bExists=FileSystems.isFileExists(sActFile);
-					
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+		//-------------------------------------------------------------------------
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\SipLog.txt";
+		//boolean bExists;
+		//try {
+		//	bExists=FileSystems.isFileExists(sActFile);
+		//} catch (Exception e) {
+		//	// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//-------------------------------------------------------------------------------
 		
+		//Verify Function copyAFile
+		String sSrcFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//Verify Src File is non Exist
+		//String sSrcF="Text.txt";
+		//String sDestFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//String sDestF="Test.txt";
+		//boolean bPrefix=false;
+		//boolean bExists;
+		//Verify Copy to a new name without prefix --RunTwo times to check dest exist
+		//String sSrcF="Test123.txt";
+		//String sDestFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//String sDestF="FunTest123.txt";
+		//boolean bPrefix=false;
+		//boolean bExists;
+		
+		//boolean bExists;
+		//Verify Copy to a new name without prefix --RunTwo times to check dest exist
+		String sSrcF="Test123.txt";
+		String sDestFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		String sDestF="QTP";
+		boolean bPrefix=true;
+		boolean bExists;
+		try {
+			bExists=FileSystems.copyAFile(sSrcFolder, sSrcF, sDestFolder, sDestF, bPrefix);
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	@BeforeMethod

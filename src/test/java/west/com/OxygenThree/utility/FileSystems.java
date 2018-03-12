@@ -183,4 +183,129 @@ public class FileSystems {
 			throw (e);
 		}
 	}
+	
+	//##############################################################################################################################
+	//#	Function boolean copyAFile(String sSrcFile, String sDestFile)
+	//#	Purpose:	copy an existed file to a new file 
+	//# Parameters: sSrcFile, sDestFile
+	//#	Return : true/false
+	//# Note the file name is full path name plus file name with extension name
+	//#	Author: Frank
+	//#	Created:	September 15, 2017
+	//# Last modified: 
+	//# How to test it
+	//  String sOri="D:/FRTemp/temp.txt";
+	//  String sDest=sOri+"_QTP";
+	//  utility.FileSystems.copyAFile(sOri, sDest );
+	//##############################################################################################################################
+				
+		
+	public static boolean copyAFile(String sSrcFolder, String sSrcFile, String sDestFolder, String sDestFile, boolean bPrefix)throws Exception{
+		//File fTempsrc=new File(sSrcFile);
+		String sFunction="|Class Utils.FileSystems | Method copyAFile |";
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		boolean bReturn=false;
+		boolean bExist=false;
+		String sActualSrcFile=sSrcFolder+"\\"+sSrcFile;
+		String sActualDestFile=sDestFolder+"\\"+sDestFile;
+		try{
+			bExist=FileSystems.isFileExists(sActualSrcFile);
+				if (!bExist) {
+					bReturn=false;
+					if (Constant.bDebugMode) {
+						System.out.println("Source file--- "+sActualSrcFile+"---is not existed");
+						Log.info("Source file--- "+sActualSrcFile+"---is not existed");
+						System.out.println("Function---"+sFunction+"--- gets Failed");
+						Log.info("Function---"+sFunction+"--- gets Failed");
+						System.out.println("Function---"+sFunction+"--- gets completed");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					return bReturn;
+				}
+				else {
+					if (!bPrefix) {
+						bExist=FileSystems.isFileExists(sActualDestFile);
+						if (!bExist) {
+							Path pFrom=Paths.get(sActualSrcFile);
+							Path pTo=Paths.get(sActualDestFile);
+							 //overwrite the destination file if it exists, and copy
+					        // the file attributes, including the rwx permissions
+							CopyOption [] options = new CopyOption[] {
+									StandardCopyOption.REPLACE_EXISTING, 
+									StandardCopyOption.COPY_ATTRIBUTES
+							};
+							Files.copy(pFrom, pTo, options);
+							if (Constant.bDebugMode) {
+								System.out.println("Function---"+sFunction+"--- gets succeed");
+								Log.info("Function---"+sFunction+"--- gets succeed");
+								System.out.println("Function---"+sFunction+"--- gets completed");
+							}
+							Log.info("Function---"+sFunction+"--- gets completed");
+							bReturn=true;
+							return bReturn;
+						}
+						else {
+							bReturn=false;
+							if (Constant.bDebugMode) {
+								System.out.println("Destination file--- "+sActualDestFile+"--- Existed");
+								Log.info("Destination file--- "+sActualDestFile+"--- Existed");
+								System.out.println("Function---"+sFunction+"--- gets Failed");
+								Log.info("Function---"+sFunction+"--- gets Failed");
+								System.out.println("Function---"+sFunction+"--- gets completed");
+							}
+							Log.info("Function---"+sFunction+"--- gets completed");
+							return bReturn;
+						}
+						
+					}
+					else {
+						sActualDestFile=sDestFolder+"\\"+sDestFile+"_"+sSrcFile;
+						bExist=FileSystems.isFileExists(sActualDestFile);
+						if (!bExist) {
+							Path pFrom=Paths.get(sActualSrcFile);
+							Path pTo=Paths.get(sActualDestFile);
+							//overwrite the destination file if it exists, and copy
+							// the file attributes, including the rwx permissions
+							CopyOption [] options = new CopyOption[] {
+								StandardCopyOption.REPLACE_EXISTING, 
+								StandardCopyOption.COPY_ATTRIBUTES
+							};
+							Files.copy(pFrom, pTo, options);
+							if (Constant.bDebugMode) {
+								System.out.println("Function---"+sFunction+"--- gets succeed");
+								Log.info("Function---"+sFunction+"--- gets succeed");
+								System.out.println("Function---"+sFunction+"--- gets completed");
+							}
+							Log.info("Function---"+sFunction+"--- gets completed");
+							bReturn=true;
+							return bReturn;
+						
+						}
+						bReturn=false;
+						if (Constant.bDebugMode) {
+							System.out.println("Destination file--- "+sActualDestFile+"--- Existed");
+							Log.info("Destination file--- "+sActualDestFile+"--- Existed");
+							System.out.println("Function---"+sFunction+"--- gets Failed");
+							Log.info("Function---"+sFunction+"--- gets Failed");
+							System.out.println("Function---"+sFunction+"--- gets completed");
+						}
+						Log.info("Function---"+sFunction+"--- gets completed");
+						return bReturn;
+					}
+				}
+					
+					
+			}catch (Exception e){
+				if (Constant.bDebugMode) {
+					System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.error("Class Utils.FileSystems | Method copyAFile | Exception desc : "+e.getMessage());
+				Log.info("Function---"+sFunction+"--- gets completed");
+				throw (e);
+			}
+		}
 }
