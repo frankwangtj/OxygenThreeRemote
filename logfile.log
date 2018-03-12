@@ -139,3 +139,13 @@
 2018-03-09 09:47:49,699 INFO  [Log] The File--- testx.txt ---NOT Exists 
 2018-03-09 09:47:49,699 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileSize |--- gets completed 
 2018-03-09 09:47:49,700 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 08:50:13,441 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 08:50:13,447 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 08:50:13,447 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\testx.txt ---NOT Exists 
+2018-03-12 08:50:13,447 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 08:50:13,448 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 08:53:43,527 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 08:53:43,530 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 08:53:43,530 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\SipLog.txt ---Exists 
+2018-03-12 08:53:43,530 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 08:53:43,531 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

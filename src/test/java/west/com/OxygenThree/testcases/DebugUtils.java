@@ -54,17 +54,29 @@ public class DebugUtils {
 		//}
 		//-------------------------------------------------------------------------
 		//Verify Function getFileSize
-		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
-		String sFile="testx.txt";
-		long lSize;
-		try {
-			 lSize=FileSystems.getFileSize(sFolder, sFile);
+		//-------------------------------------------------------------------------
+		//String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//String sFile="testx.txt";
+		//long lSize;
+		//try {
+		//	 lSize=FileSystems.getFileSize(sFolder, sFile);
 			
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//} catch (Exception e) {
+		//	// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
 		
+		//Verify Function isFileExists
+				String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\SipLog.txt";
+				
+				boolean bExists;
+				try {
+					 bExists=FileSystems.isFileExists(sActFile);
+					
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 		
 		
 	}
