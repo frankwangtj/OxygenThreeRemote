@@ -121,7 +121,7 @@ public class FileSystems {
 				System.out.println("Function---"+sFunction+"--- gets completed");
 			}
 			Log.info("Function---"+sFunction+"--- gets completed");
-			Log.error("Class Utils.FileSystems | Method isFileExists | Exception desc : "+e.getMessage());
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
 			throw (e);
 		}
 	}
@@ -307,7 +307,7 @@ public class FileSystems {
 					System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
 					System.out.println("Function---"+sFunction+"--- gets completed");
 				}
-				Log.error("Class Utils.FileSystems | Method copyAFile | Exception desc : "+e.getMessage());
+				Log.error(sFunction+"Exception desc : "+e.getMessage());
 				Log.info("Function---"+sFunction+"--- gets completed");
 				throw (e);
 			}
@@ -378,7 +378,66 @@ public class FileSystems {
 				System.out.println("Function---"+sFunction+"--- gets completed");
 			}
 			Log.info("Function---"+sFunction+"--- gets completed");
-			Log.error("Class Utils.FileSystems | Method readAFile | Exception desc : "+e.getMessage());
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			throw (e);
+		}
+	}
+	
+	//##############################################################################################################################
+	//#	Function boolean deleteAFile(String sFile)
+	//#	Purpose:	delete an existed file  
+	//# Parameters: sFile
+	//#	Return : true/false
+	//#	Author: Frank
+	//#	Created:	September 15, 2017
+	//# Last modified: 
+	//# How to test it
+	//  String sOri="D:/FRTemp/temp.txt";
+	//  utility.FileSystems.deleteAFile(sOri);
+	//##############################################################################################################################
+					
+			
+	public static boolean deleteAFile(String sFile)throws Exception{
+		String sFunction="|Class Utils.FileSystems | Method deleteAFile |";
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		boolean bReturn=false;
+		boolean bExist=false;
+		try{
+			bExist=FileSystems.isFileExists(sFile);
+			if (!bExist) {
+				bReturn=false;
+				if (Constant.bDebugMode) {
+					System.out.println("File--- "+sFile+"---is not existed.The File can not be deleted");
+					Log.info("File--- "+sFile+"---is not existed.The File can not be deleted");
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				return bReturn;
+			}
+			else {
+				File fToBeDeleted = new File(sFile);
+				fToBeDeleted.delete();
+				if (Constant.bDebugMode) {
+					System.out.println("Function---"+sFunction+"--- gets succeed");
+					Log.info("Function---"+sFunction+"--- gets succeed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				bReturn=true;
+				return bReturn;
+			}
+		}catch (Exception e){
+			if (Constant.bDebugMode) {
+				System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			Log.info("Function---"+sFunction+"--- gets completed");
 			throw (e);
 		}
 	}

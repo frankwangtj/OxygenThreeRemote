@@ -9,3 +9,4 @@
 . New Fun isFileExists						----is working -- March 12, 2018
 . New Fun copyAFile							----is working -- March 12, 2018
 . New Fun readAFile into array				----is working -- March 12, 2018
+. New Fun deleteAFile						----is working -- March 12, 2018

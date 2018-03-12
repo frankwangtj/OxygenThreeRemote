@@ -300,3 +300,20 @@
 2018-03-12 13:45:55,683 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
 2018-03-12 13:45:55,684 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
 2018-03-12 13:45:55,685 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 16:29:09,247 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 16:29:09,251 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets Started 
+2018-03-12 16:29:09,251 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 16:29:09,251 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Empty256.txt ---NOT Exists 
+2018-03-12 16:29:09,251 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 16:29:09,251 INFO  [Log] File--- D:\FRWeb\004_FileSystemPractice\TestFolder\Empty256.txt---is not existed.The File can not be deleted 
+2018-03-12 16:29:09,251 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets Failed 
+2018-03-12 16:29:09,251 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets completed 
+2018-03-12 16:29:09,252 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 16:33:36,246 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 16:33:36,253 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets Started 
+2018-03-12 16:33:36,253 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 16:33:36,253 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Empty.txt ---Exists 
+2018-03-12 16:33:36,253 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 16:33:36,254 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets succeed 
+2018-03-12 16:33:36,254 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets completed 
+2018-03-12 16:33:36,255 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

@@ -80,7 +80,8 @@ public class DebugUtils {
 		//-------------------------------------------------------------------------------
 		
 		//Verify Function copyAFile
-		String sSrcFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//------------------------------------------------------------------------------
+		//String sSrcFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
 		//Verify Src File is non Exist
 		//String sSrcF="Text.txt";
 		//String sDestFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
@@ -112,25 +113,39 @@ public class DebugUtils {
 		
 		//Verify Function readAFile
 		//-------------------------------------------------------------------------
-		String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty.txt";
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty1000.txt";
+		//boolean bExists;
+		//try {
+		//	String[] sRead=FileSystems.readAFile(sActFile);
+		//	if ((sRead !=null) &&  (sRead.length>0)) {
+		//		System.out.println("The array is started");
+		//		for (int i=0; i<sRead.length; i++) {
+		//			System.out.println(sRead[i]);
+		//		}
+		//		System.out.println("The array is completed");
+		//	}
+			
+		//} catch (Exception e) {
+			//	// TODO Auto-generated catch block
+		//		e.printStackTrace();
+		//}
+		//-------------------------------------------------------------------------------
+		//Verify Function deleteAFile
+		//------------------------------------------------------------------------------
+		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//String sSrcF="Empty256.txt";
+		String sSrcF="Empty.txt";
+		String sActualF=sFolder+"\\"+sSrcF;
 		boolean bExists;
 		try {
-			String[] sRead=FileSystems.readAFile(sActFile);
-			if ((sRead !=null) &&  (sRead.length>0)) {
-				System.out.println("The array is started");
-				for (int i=0; i<sRead.length; i++) {
-					System.out.println(sRead[i]);
-				}
-				System.out.println("The array is completed");
-			}
-			
+			bExists=FileSystems.deleteAFile(sActualF);					
 		} catch (Exception e) {
-			//	// TODO Auto-generated catch block
-				e.printStackTrace();
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		//-------------------------------------------------------------------------------
+		//-----------------------------------------------------------------------------------------
 				
 		
 	}
