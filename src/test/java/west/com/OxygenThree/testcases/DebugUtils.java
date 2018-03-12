@@ -134,18 +134,42 @@ public class DebugUtils {
 		//-------------------------------------------------------------------------------
 		//Verify Function deleteAFile
 		//------------------------------------------------------------------------------
-		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
 		//String sSrcF="Empty256.txt";
-		String sSrcF="Empty.txt";
-		String sActualF=sFolder+"\\"+sSrcF;
+		//String sSrcF="Empty.txt";
+		//String sActualF=sFolder+"\\"+sSrcF;
+		//boolean bExists;
+		//try {
+		//	bExists=FileSystems.deleteAFile(sActualF);					
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//-----------------------------------------------------------------------------------------
+		
+		//Verify Function deleteAFile
+		//------------------------------------------------------------------------------
+		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
 		boolean bExists;
+		String sLastFile;
+		//Verify sExt=exe
+		//String sExt="exe";
+		//Verify sExt=txt
+		//String sExt="txt";
+		//Verify sExt=*
+		//String sExt="*";
+		//Verify combination in a folder
+		String sExt="*";
+		sFolder="D:\\FRWeb\\003_RunningEnvironment\\03_EclipseMars";
 		try {
-			bExists=FileSystems.deleteAFile(sActualF);					
+			sLastFile=FileSystems.getLastModifiedFile(sFolder, sExt);
+			System.out.println(sLastFile);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		//-----------------------------------------------------------------------------------------
+				
 				
 		
 	}

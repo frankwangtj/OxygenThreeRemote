@@ -3,6 +3,7 @@ package west.com.OxygenThree.utility;
 import java.nio.file.Paths;
 import java.io.IOException;
 import java.io.File;
+import java.io.FileFilter;	//for getLastModifiedFile
 import java.io.FileInputStream;
 import java.nio.channels.FileChannel;
 import java.nio.file.CopyOption;
@@ -15,6 +16,8 @@ import java.io.BufferedReader; 	//For readfile
 import java.io.FileReader;     	//For readfile
 import java.util.ArrayList;		//For array
 import java.util.Arrays;		//For array
+import org.apache.commons.io.filefilter.WildcardFileFilter; //for getLastModifiedFile
+import org.apache.commons.io.comparator.LastModifiedFileComparator; //for getLastModifiedFile
 
 
 public class FileSystems {
@@ -441,4 +444,85 @@ public class FileSystems {
 			throw (e);
 		}
 	}
+	
+	//##############################################################################################################################
+	//#	Function String getLastModifiedFile(String sPath, String sExt)
+	//#	Purpose:    return the last modified file name with/without extension name
+	//# Parameters: sPath, sExt
+	//#	Return : String fileName
+	//#	Author: Frank
+	//#	Created:	September 15, 2017
+	//# Last modified: 
+	//# NOTE: When files and folders are combined, the result is incorrect.
+	//#       Please sort by extension
+	//# How to test it
+	//  --With filter
+	//	String sOri="D:/FRTemp/";
+	//  String sExt="txt";
+	//	System.out.println(utility.FileSystems.getLastModifiedFile(sOri, sExt));
+	//  --With wildcard
+	//	String sOri="D:/FRTemp/";
+	//  String sExt="*";
+	//	System.out.println(utility.FileSystems.getLastModifiedFile(sOri, sExt));
+	//	--remote machine
+	//  String sFolder="//recdb1/Test/";
+	//  String sExt="*";
+	//  System.out.println(utility.FileSystems.getLastModifiedFile(sFolder, sExt));
+	//##############################################################################################################################
+			
+			
+	public static String getLastModifiedFile(String sPath, String sExt)throws Exception{
+		String sFunction="|Class Utils.FileSystems | Method getLastModifiedFile |";
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		boolean bExiste=false;	
+		String sMsg;
+		String sFile;
+		try{
+			bExiste=FileSystems.isFolderExists(sPath);
+				if (!bExiste) {
+					sMsg="The folder--- "+sPath+" ---Not Exists.";
+					if (Constant.bDebugMode) {
+						System.out.println(sMsg);
+						Log.info(sMsg);
+						System.out.println("Function---"+sFunction+"--- gets Failed");
+						Log.info("Function---"+sFunction+"--- gets Failed");
+						System.out.println("Function---"+sFunction+"--- gets completed");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					sMsg="NOT EXISTED";
+					return sMsg;
+				}
+				else {
+					File fNewestFile = null;
+					File fDir = new File(sPath);
+					FileFilter ffilefilter=new WildcardFileFilter("*."+sExt);
+					File [] files=fDir.listFiles(ffilefilter);
+					if (files.length>0) {
+						Arrays.sort(files, LastModifiedFileComparator.LASTMODIFIED_REVERSE);
+						fNewestFile=files[0];
+					}
+					sFile=files[0].getName();
+					if (Constant.bDebugMode) {
+						System.out.println("Function---"+sFunction+"--- gets completed");
+						Log.info("The latest modified file is---"+sFile+"---");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					
+					return sFile;
+					
+				}							    
+					
+			}catch (Exception e){
+				if (Constant.bDebugMode) {
+					System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.error(sFunction+"Exception desc : "+e.getMessage());
+				Log.info("Function---"+sFunction+"--- gets completed");
+				throw (e);
+			}
+		}
 }

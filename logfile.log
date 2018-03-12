@@ -317,3 +317,40 @@
 2018-03-12 16:33:36,254 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets succeed 
 2018-03-12 16:33:36,254 INFO  [Log] Function---|Class Utils.FileSystems | Method deleteAFile |--- gets completed 
 2018-03-12 16:33:36,255 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 17:52:20,651 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 17:52:20,658 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets Started 
+2018-03-12 17:52:20,658 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-12 17:52:20,658 INFO  [Log] The folder--- D:\FRWeb\004_FileSystemPractice\TestFolder ---Exists 
+2018-03-12 17:52:20,658 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-12 17:52:20,695 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets completed 
+2018-03-12 17:52:20,696 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 17:53:59,310 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 17:53:59,314 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets Started 
+2018-03-12 17:53:59,314 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-12 17:53:59,314 INFO  [Log] The folder--- D:\FRWeb\004_FileSystemPractice\TestFolder ---Exists 
+2018-03-12 17:53:59,314 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-12 17:53:59,321 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets completed 
+2018-03-12 17:53:59,321 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 17:55:21,915 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 17:55:21,922 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets Started 
+2018-03-12 17:55:21,922 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-12 17:55:21,922 INFO  [Log] The folder--- D:\FRWeb\004_FileSystemPractice\TestFolder ---Exists 
+2018-03-12 17:55:21,923 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-12 17:55:21,929 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets completed 
+2018-03-12 17:55:21,930 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 18:00:24,139 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 18:00:24,146 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets Started 
+2018-03-12 18:00:24,146 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-12 18:00:24,146 INFO  [Log] The folder--- D:\FRWeb\003_RunningEnvironment\01_M2\Maven\apache-maven-3.5.0 ---Exists 
+2018-03-12 18:00:24,146 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-12 18:00:24,152 INFO  [Log] The latest modified file is---README.txt--- 
+2018-03-12 18:00:24,152 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets completed 
+2018-03-12 18:00:24,153 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 18:01:55,180 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 18:01:55,184 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets Started 
+2018-03-12 18:01:55,184 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-12 18:01:55,184 INFO  [Log] The folder--- D:\FRWeb\003_RunningEnvironment\03_EclipseMars ---Exists 
+2018-03-12 18:01:55,185 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-12 18:01:55,191 INFO  [Log] The latest modified file is---.eclipseextension--- 
+2018-03-12 18:01:55,191 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets completed 
+2018-03-12 18:01:55,192 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
