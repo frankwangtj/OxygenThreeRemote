@@ -96,18 +96,42 @@ public class DebugUtils {
 		
 		//boolean bExists;
 		//Verify Copy to a new name without prefix --RunTwo times to check dest exist
-		String sSrcF="Test123.txt";
-		String sDestFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
-		String sDestF="QTP";
-		boolean bPrefix=true;
+		//String sSrcF="Test123.txt";
+		//String sDestFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//String sDestF="QTP";
+		//boolean bPrefix=true;
+		//boolean bExists;
+		//try {
+		//	bExists=FileSystems.copyAFile(sSrcFolder, sSrcF, sDestFolder, sDestF, bPrefix);
+			
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//-----------------------------------------------------------------------------------------
+		
+		//Verify Function readAFile
+		//-------------------------------------------------------------------------
+		String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty.txt";
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty1000.txt";
 		boolean bExists;
 		try {
-			bExists=FileSystems.copyAFile(sSrcFolder, sSrcF, sDestFolder, sDestF, bPrefix);
+			String[] sRead=FileSystems.readAFile(sActFile);
+			if ((sRead !=null) &&  (sRead.length>0)) {
+				System.out.println("The array is started");
+				for (int i=0; i<sRead.length; i++) {
+					System.out.println(sRead[i]);
+				}
+				System.out.println("The array is completed");
+			}
 			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//	// TODO Auto-generated catch block
+				e.printStackTrace();
 		}
+		//-------------------------------------------------------------------------------
+				
 		
 	}
 	@BeforeMethod

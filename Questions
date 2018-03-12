@@ -1,1 +1,7 @@
-When should I passing and how to passing a class as a parameter?
+Question: When should I passing and how to passing a class as a parameter?
+
+Question: How to check if an array is empty?
+Answer  String[] sRead=FileSystems.readAFile(sActFile);
+        (sRead==null /  sRead !=null)
+Question: And logical operator?
+Answer:  &&

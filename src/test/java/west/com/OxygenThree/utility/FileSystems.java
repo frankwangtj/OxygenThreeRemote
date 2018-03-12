@@ -11,6 +11,10 @@ import java.nio.file.Path;
 import java.nio.file.Files;
 import java.util.List;
 import west.com.OxygenThree.utility.Constant;
+import java.io.BufferedReader; 	//For readfile
+import java.io.FileReader;     	//For readfile
+import java.util.ArrayList;		//For array
+import java.util.Arrays;		//For array
 
 
 public class FileSystems {
@@ -308,4 +312,74 @@ public class FileSystems {
 				throw (e);
 			}
 		}
+	
+
+	//##############################################################################################################################
+	//#	Function String[] readAFile(String sFile)
+	//#	Purpose:	Read a file line by line into an array 
+	//# Parameters: sFile
+	//#	Return : String []
+	//#	Author: Frank
+	//#	Created:	September 15, 2017
+	//# Last modified: 
+	//# How to test it
+	//  String sOri="D:/FRTemp/temp.txt";
+	//  String[] sRead=utility.FileSystems.readAFile(sOri);
+	//  for (int i=0; i<sRead.length; ++i)
+	//  {
+	//	  System.out.println(sRead[i]);
+	//  }
+	//##############################################################################################################################
+	
+	
+	public static String[] readAFile(String sFile)throws Exception{
+		String sFunction="|Class Utils.FileSystems | Method readAFile |";
+		boolean bExists;
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");
+		
+		try{
+			bExists=FileSystems.isFileExists(sFile);
+			if (bExists) {
+				FileReader fileReader = new FileReader(sFile);
+				BufferedReader bufferedReader = new BufferedReader(fileReader);
+				List<String> lines = new ArrayList<String>();
+				String line = null;
+				while ((line = bufferedReader.readLine()) != null) {
+					lines.add(line);
+				}
+				bufferedReader.close();
+				if (Constant.bDebugMode) {
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				return lines.toArray(new String[lines.size()]);
+			}
+			else {
+				if (Constant.bDebugMode) {
+					System.out.println("File---"+sFile+"--- Not Exist");
+					Log.info("File---"+sFile+"--- Not Exist");
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				return null;
+			}
+				
+	    
+			
+		}catch (Exception e){
+			if (Constant.bDebugMode) {
+				System.out.println("Function---"+sFunction+"--- gets Failed");
+				Log.info("Function---"+sFunction+"--- gets Failed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+			Log.error("Class Utils.FileSystems | Method readAFile | Exception desc : "+e.getMessage());
+			throw (e);
+		}
+	}
 }

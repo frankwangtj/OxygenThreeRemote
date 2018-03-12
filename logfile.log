@@ -221,3 +221,82 @@
 2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets Failed 
 2018-03-12 11:21:00,003 INFO  [Log] Function---|Class Utils.FileSystems | Method copyAFile |--- gets completed 
 2018-03-12 11:21:00,004 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:29:39,297 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:29:39,300 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:29:39,300 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 13:29:39,300 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:29:39,300 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:29:39,300 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:29:39,301 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 13:29:39,301 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:29:39,301 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:29:39,302 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:31:03,541 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:31:03,544 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:31:03,544 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty.txt ---Exists 
+2018-03-12 13:31:03,544 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:31:03,544 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:31:03,545 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:31:03,545 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty.txt ---Exists 
+2018-03-12 13:31:03,545 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:31:03,545 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:31:03,546 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:32:39,423 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:32:39,426 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:32:39,426 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:32:39,426 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt ---NOT Exists 
+2018-03-12 13:32:39,426 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:32:39,426 INFO  [Log] File---D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt--- Not Exist 
+2018-03-12 13:32:39,427 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Failed 
+2018-03-12 13:32:39,427 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:32:39,428 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:34:37,648 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:34:37,652 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:34:37,653 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:34:37,653 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt ---NOT Exists 
+2018-03-12 13:34:37,653 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:34:37,653 INFO  [Log] File---D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt--- Not Exist 
+2018-03-12 13:34:37,653 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Failed 
+2018-03-12 13:34:37,653 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:34:37,654 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:35:48,050 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:35:48,057 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:35:48,057 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:35:48,057 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt ---NOT Exists 
+2018-03-12 13:35:48,057 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:35:48,057 INFO  [Log] File---D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt--- Not Exist 
+2018-03-12 13:35:48,057 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Failed 
+2018-03-12 13:35:48,057 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:35:48,060 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:37:45,321 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:37:45,325 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:37:45,325 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:37:45,325 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt ---NOT Exists 
+2018-03-12 13:37:45,325 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:37:45,325 INFO  [Log] File---D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt--- Not Exist 
+2018-03-12 13:37:45,325 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Failed 
+2018-03-12 13:37:45,325 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:37:45,328 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:43:44,670 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:43:44,677 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:43:44,677 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:43:44,677 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt ---NOT Exists 
+2018-03-12 13:43:44,677 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:43:44,677 INFO  [Log] File---D:\FRWeb\004_FileSystemPractice\TestFolder\empty1000.txt--- Not Exist 
+2018-03-12 13:43:44,677 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Failed 
+2018-03-12 13:43:44,677 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:43:44,678 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:45:13,591 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:45:13,595 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:45:13,595 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:45:13,595 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\empty.txt ---Exists 
+2018-03-12 13:45:13,595 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:45:13,596 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:45:13,596 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:45:55,676 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-12 13:45:55,683 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets Started 
+2018-03-12 13:45:55,683 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-12 13:45:55,683 INFO  [Log] The file--- D:\FRWeb\004_FileSystemPractice\TestFolder\Test123.txt ---Exists 
+2018-03-12 13:45:55,683 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-12 13:45:55,684 INFO  [Log] Function---|Class Utils.FileSystems | Method readAFile |--- gets completed 
+2018-03-12 13:45:55,685 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
