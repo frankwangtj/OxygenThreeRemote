@@ -354,3 +354,17 @@
 2018-03-12 18:01:55,191 INFO  [Log] The latest modified file is---.eclipseextension--- 
 2018-03-12 18:01:55,191 INFO  [Log] Function---|Class Utils.FileSystems | Method getLastModifiedFile |--- gets completed 
 2018-03-12 18:01:55,192 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 13:01:37,163 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 13:01:37,166 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileNamesInAFolder|--- gets Started 
+2018-03-13 13:01:37,166 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-13 13:01:37,166 INFO  [Log] The folder--- C:\007_Temp ---Exists 
+2018-03-13 13:01:37,167 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-13 13:01:37,170 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileNamesInAFolder|--- gets completed 
+2018-03-13 13:01:37,171 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 13:06:01,569 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 13:06:01,573 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileNamesInAFolder|--- gets Started 
+2018-03-13 13:06:01,573 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-13 13:06:01,573 INFO  [Log] The folder--- C:\007_Temp ---Exists 
+2018-03-13 13:06:01,574 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-13 13:06:01,579 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileNamesInAFolder|--- gets completed 
+2018-03-13 13:06:01,582 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

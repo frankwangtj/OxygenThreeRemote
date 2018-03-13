@@ -530,7 +530,7 @@ public class FileSystems {
 	//#	Function String getFileNamesInAFolder(String sPath, String sExt)
 	//#	Purpose:    return the file name list  with/without extension name
 	//# Parameters: sPath, sExt
-	//#	Return : Array fileName list
+	//#	Return : Array fileName list with default order
 	//#	Author: Frank
 	//#	Created:	September 15, 2017
 	//# Last modified: 

@@ -25,7 +25,7 @@ public class DebugUtils {
 	// In Before Method, your code will always be the same for every other test case.
 	// In other way before method is your prerequisites of your main Test Case	
 	@Test
-	public void ExecuteDebugUtils() throws InterruptedException {
+	public void ExecuteDebugUtils() {
 				
 		//Log.info("Launch onlinestore website");
 		//driver.get("http://www.store.demoqa.com");
@@ -169,26 +169,27 @@ public class DebugUtils {
 		//	e.printStackTrace();
 		//}
 		//-----------------------------------------------------------------------------------------
-		//Verify Function readAFile
+		//Verify Function getFileNamesInAFolder
 		//-------------------------------------------------------------------------
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty.txt";
-		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty1000.txt";
+		String sActFile="C:\\007_Temp";
+		String sExt="txt";
 		//boolean bExists;
-		//try {
-		//	String[] sRead=FileSystems.readAFile(sActFile);
-		//	if ((sRead !=null) &&  (sRead.length>0)) {
-		//		System.out.println("The array is started");
-		//		for (int i=0; i<sRead.length; i++) {
-		//			System.out.println(sRead[i]);
-		//		}
-		//		System.out.println("The array is completed");
-		//	}
+		try {
+			String[] sFileList=FileSystems.getFileNamesInAFolder(sActFile, sExt);
+			if ((sFileList !=null) &&  (sFileList.length>0)) {
+				System.out.println("The array is started");
+				for (int i=0; i<sFileList.length; i++) {
+					System.out.println(sFileList[i]);
+				}
+				System.out.println("The array is completed");
+			}
 				
-		//} catch (Exception e) {
+		} catch (Exception e) {
 			//	// TODO Auto-generated catch block
-		//		e.printStackTrace();
-		//}
+				e.printStackTrace();
+		}
 				
 				
 		
