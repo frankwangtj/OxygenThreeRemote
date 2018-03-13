@@ -10,6 +10,8 @@ import west.com.OxygenThree.pageObjects.OnlineStore_HomePage;
 import west.com.OxygenThree.pageObjects.OnlineStore_LoginPage;
 import west.com.OxygenThree.utility.FileSystems;
 import west.com.OxygenThree.utility.Log;
+import west.com.OxygenThree.utility.RunningEnv;
+
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
 import java.util.concurrent.TimeUnit;
@@ -50,13 +52,18 @@ public class RunTestCase_OnlineStoreLogin {
 		
 	}
 	@BeforeMethod
-	public void beforeMethod() {
+	public void beforeMethod() throws Exception {
 		// Configuring Log4j logs, please see the following posts to learn about Log4j Logging
 		// http://www.toolsqa.com/test-case-with-log4j/
     	// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
 		
-		System.setProperty("webdriver.gecko.driver", "D:\\FRWeb\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
+		String sSecPC=RunningEnv.getRunningMachineName();
+		String sKey1="Path_geckodriver";
+		String sGecodri=FileSystems.getConfigFromINI(sSecPC, sKey1);
+		
+		//System.setProperty("webdriver.gecko.driver", "D:\\FRWeb\\003_RunningEnvironment\\02_GeckoDriver16\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", sGecodri );
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		System.out.println("Start to test--RunTestCase");
