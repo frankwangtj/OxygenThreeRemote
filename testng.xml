@@ -2,7 +2,7 @@
 <suite name="Suite One">
  <test name="Test One">
   		<classes>
-   			<class name="west.com.OxygenThree.testcases.DebugUtils" />      
+   			<class name="west.com.OxygenThree.testcases.RunTestCase_OnlineStoreLogin" />      
   		</classes>
  	</test>
 </suite>

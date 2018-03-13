@@ -8,6 +8,7 @@ import org.testng.annotations.AfterMethod;
 
 import west.com.OxygenThree.pageObjects.OnlineStore_HomePage;
 import west.com.OxygenThree.pageObjects.OnlineStore_LoginPage;
+import west.com.OxygenThree.utility.FileSystems;
 import west.com.OxygenThree.utility.Log;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
@@ -22,15 +23,24 @@ public class RunTestCase_OnlineStoreLogin {
 	// In Before Method, your code will always be the same for every other test case.
 	// In other way before method is your prerequisites of your main Test Case	
 	@Test
-	public void RunSpecificTestCase() throws InterruptedException {
+	public void RunSpecificTestCase() throws Exception {
 		
 		//driver.get("http://www.google.com");
 		Log.info("Launch onlinestore website");
-		driver.get("http://www.store.demoqa.com");
+		String sSection="OnlineStore";
+		String sKey="URL";
+		String sURL=FileSystems.getConfigFromINI(sSection, sKey);
+		driver.get(sURL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		OnlineStore_HomePage.lnk_MyAccount(driver).click();
-		OnlineStore_LoginPage.txtbx_UserName(driver).sendKeys("testuser_12345678");
-		OnlineStore_LoginPage.txtbx_Password(driver).sendKeys("Test@123");
+		
+		sKey="user";
+		String sUser=FileSystems.getConfigFromINI(sSection, sKey);
+		OnlineStore_LoginPage.txtbx_UserName(driver).sendKeys(sUser);
+		
+		sKey="pass";
+		String sPass=FileSystems.getConfigFromINI(sSection, sKey);
+		OnlineStore_LoginPage.txtbx_Password(driver).sendKeys(sPass);
 		OnlineStore_LoginPage.btn_LogIn(driver).click();
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 		Thread.sleep(2000);
