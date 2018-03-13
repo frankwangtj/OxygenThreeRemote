@@ -768,6 +768,70 @@ public class FileSystems {
 			}
 		}
 
-
+	
+	//##############################################################################################################################	
+	//#	Function int getFileCount(String sPath, String sExt)
+	//#	Purpose:    return Total file number with/without extension name
+	//# Parameters: sPath, sExt
+	//#	Return : int fileCount
+	//# NOTE: if the folder is not exist, return -1
+	//#	Author: Frank
+	//#	Created:	March 13, 2018
+	//# Last modified: 
+	//# How to test it
+	//##############################################################################################################################
+		
+		
+	public static int getFileCount(String sPath, String sExt) throws Exception{
+		String sFunction="|Class Utils.FileSystems | Method getFileCount |";
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		boolean bExiste=false;	
+		String sMsg;
+		String sFile;
+		int iRtn;
+		try{
+			bExiste=FileSystems.isFolderExists(sPath);
+			if (!bExiste) {
+				
+				if (Constant.bDebugMode) {
+					System.out.println("The Folder--- "+sPath+"---is not existed");
+					Log.info("The Folder--- "+sPath+"---is not existed");
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				iRtn=-1;
+				return iRtn;
+			}
+			else {
+				File fNewestFile = null;
+				File fDir = new File(sPath);
+				FileFilter ffilefilter=new WildcardFileFilter("*."+sExt);
+				File [] files=fDir.listFiles(ffilefilter);
+				if (Constant.bDebugMode) {
+					System.out.println("Function---"+sFunction+"--- gets succeed");
+					Log.info("Function---"+sFunction+"--- gets succeed");
+					System.out.println("The file count number is----"+String.valueOf(files.length)+"----");
+					Log.info("The file count number is----"+String.valueOf(files.length)+"----");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				return files.length;
+			}
+		}catch (Exception e){
+			if (Constant.bDebugMode) {
+				System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			Log.info("Function---"+sFunction+"--- gets completed");
+				
+			throw (e);
+		}
+	}
 		
 }

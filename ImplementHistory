@@ -13,4 +13,5 @@
 . New Fun getLastModifiedFile				----is working -- March 13, 2018
 . New Fun getFileNameInAFolder				----is working -- March 13, 2018
 . New Fun getKeyValueFromINI				----is working -- March 13, 2018
-. New Fun getConfigFromINI					----is working -- March 13, 2018  
+. New Fun getConfigFromINI					----is working -- March 13, 2018
+. New Fun getFileCount						----is working -- March 13, 2018  

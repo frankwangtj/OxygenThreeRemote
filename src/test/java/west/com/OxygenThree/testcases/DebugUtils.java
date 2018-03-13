@@ -194,19 +194,38 @@ public class DebugUtils {
 		//Verify Function getKeyValueFromINI
 		//------------------------------------------------------------------------------
 		//String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//boolean bExists;
+		//String sSection="PMIS_1_1_4_Single";
+		//String sKey="PMIS_URL";
+		//String sRtn;
+		//try {
+		//	//sRtn=FileSystems.getKeyValueFromINI(sSection, sKey);
+		//	sRtn=FileSystems.getConfigFromINI(sSection, sKey);
+		//	System.out.println(sRtn);
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//-----------------------------------------------------------------------------------------
+		
+		
+		//Verify Function getFileCount
+		//-------------------------------------------------------------------------
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty.txt";
+		String sActFile="C:\\007_Temp";
+		String sExt="*";
 		boolean bExists;
-		String sSection="PMIS_1_1_4_Single";
-		String sKey="PMIS_URL";
-		String sRtn;
+		int iCount;
 		try {
-			//sRtn=FileSystems.getKeyValueFromINI(sSection, sKey);
-			sRtn=FileSystems.getConfigFromINI(sSection, sKey);
-			System.out.println(sRtn);
+			iCount=FileSystems.getFileCount(sActFile, sExt);
+				
+						
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//-----------------------------------------------------------------------------------------
+		//--------------------------------------------------------------------------------------
 				
 		
 	}

@@ -411,3 +411,48 @@
 2018-03-13 14:28:30,143 INFO  [Log] The Value is----http://database1/mis---- 
 2018-03-13 14:28:30,143 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
 2018-03-13 14:28:30,159 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:46:53,212 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:46:53,212 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets Started 
+2018-03-13 15:46:53,212 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-13 15:46:53,212 INFO  [Log] The folder--- C:\007_Temp ---Exists 
+2018-03-13 15:46:53,212 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-13 15:46:53,227 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets succeed 
+2018-03-13 15:46:53,227 INFO  [Log] The file count number is----2---- 
+2018-03-13 15:46:53,227 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets completed 
+2018-03-13 15:46:53,227 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:50:04,213 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:50:04,213 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets Started 
+2018-03-13 15:50:04,213 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-13 15:50:04,213 INFO  [Log] The folder--- C:\007_Temp ---Exists 
+2018-03-13 15:50:04,213 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-13 15:50:04,229 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets succeed 
+2018-03-13 15:50:04,229 INFO  [Log] The file count number is----2---- 
+2018-03-13 15:50:04,229 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets completed 
+2018-03-13 15:50:04,229 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:50:56,734 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:50:56,734 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets Started 
+2018-03-13 15:50:56,734 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-13 15:50:56,734 INFO  [Log] The folder--- C:\007_Temp ---Exists 
+2018-03-13 15:50:56,734 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-13 15:50:56,750 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets succeed 
+2018-03-13 15:50:56,750 INFO  [Log] The file count number is----5---- 
+2018-03-13 15:50:56,750 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets completed 
+2018-03-13 15:50:56,750 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:51:39,796 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:51:39,812 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets Started 
+2018-03-13 15:51:39,812 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-13 15:51:39,812 INFO  [Log] The folder--- C:\007_Temp\x ---NOT Exists 
+2018-03-13 15:51:39,812 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-13 15:51:39,812 INFO  [Log] The Folder--- C:\007_Temp\x---is not existed 
+2018-03-13 15:51:39,812 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets Failed 
+2018-03-13 15:51:39,812 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets completed 
+2018-03-13 15:51:39,812 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:53:27,322 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 15:53:27,337 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets Started 
+2018-03-13 15:53:27,337 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets Started 
+2018-03-13 15:53:27,337 INFO  [Log] The folder--- C:\007_Temp ---Exists 
+2018-03-13 15:53:27,337 INFO  [Log] Function---|Class Utils.FileSystems | Method isFolderExists |--- gets completed 
+2018-03-13 15:53:27,337 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets succeed 
+2018-03-13 15:53:27,337 INFO  [Log] The file count number is----5---- 
+2018-03-13 15:53:27,337 INFO  [Log] Function---|Class Utils.FileSystems | Method getFileCount |--- gets completed 
+2018-03-13 15:53:27,337 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
