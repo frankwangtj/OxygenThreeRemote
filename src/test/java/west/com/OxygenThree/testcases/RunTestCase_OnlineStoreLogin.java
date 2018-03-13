@@ -63,6 +63,7 @@ public class RunTestCase_OnlineStoreLogin {
 		DOMConfigurator.configure("log4j.xml");
 		
 		String sSecPC=RunningEnv.getRunningMachineName();
+		System.out.println("The Computer is----"+sSecPC);
 		String sKey1="Path_geckodriver";
 		String sGecodri=FileSystems.getConfigFromINI(sSecPC, sKey1);
 		
