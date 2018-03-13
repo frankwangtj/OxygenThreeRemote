@@ -34,15 +34,19 @@ public class RunTestCase_OnlineStoreLogin {
 		String sURL=FileSystems.getConfigFromINI(sSection, sKey);
 		driver.get(sURL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Thread.sleep(2000);
 		OnlineStore_HomePage.lnk_MyAccount(driver).click();
 		
 		sKey="user";
 		String sUser=FileSystems.getConfigFromINI(sSection, sKey);
+		Thread.sleep(2000);
 		OnlineStore_LoginPage.txtbx_UserName(driver).sendKeys(sUser);
 		
 		sKey="pass";
 		String sPass=FileSystems.getConfigFromINI(sSection, sKey);
+		Thread.sleep(2000);
 		OnlineStore_LoginPage.txtbx_Password(driver).sendKeys(sPass);
+		Thread.sleep(2000);
 		OnlineStore_LoginPage.btn_LogIn(driver).click();
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 		Thread.sleep(2000);
