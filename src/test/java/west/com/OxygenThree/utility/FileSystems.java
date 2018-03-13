@@ -525,4 +525,93 @@ public class FileSystems {
 				throw (e);
 			}
 		}
+	
+	//##############################################################################################################################
+	//#	Function String getFileNamesInAFolder(String sPath, String sExt)
+	//#	Purpose:    return the file name list  with/without extension name
+	//# Parameters: sPath, sExt
+	//#	Return : Array fileName list
+	//#	Author: Frank
+	//#	Created:	September 15, 2017
+	//# Last modified: 
+	//# How to test it
+	//  --With filter
+	//	String sOri="D:/FRTemp/";
+	//  String sExt="txt";
+	//	System.out.println(utility.FileSystems.getLastModifiedFile(sOri, sExt));
+	//  --With wildcard
+	//	String sOri="D:/FRTemp/";
+	//  String sExt="*";
+	//	System.out.println(utility.FileSystems.getLastModifiedFile(sOri, sExt));
+	//	--remote machine
+	//  String sFolder="//recdb1/Test/";
+	//  String sExt="*";
+	//  System.out.println(utility.FileSystems.getLastModifiedFile(sFolder, sExt));
+	//##############################################################################################################################
+				
+				
+	public static String[] getFileNamesInAFolder(String sPath, String sExt)throws Exception{
+		String sFunction="|Class Utils.FileSystems | Method getFileNamesInAFolder|";
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		boolean bExiste=false;	
+		String sMsg;
+		String [] sReturn =null;
+		String [] sReturn1 = null;
+		String sFile;
+		try{
+			bExiste=FileSystems.isFolderExists(sPath);
+				if (!bExiste) {
+					sMsg="The folder--- "+sPath+" ---Not Exists.";
+					if (Constant.bDebugMode) {
+						System.out.println(sMsg);
+						Log.info(sMsg);
+						System.out.println("Function---"+sFunction+"--- gets Failed");
+						Log.info("Function---"+sFunction+"--- gets Failed");
+						System.out.println("Function---"+sFunction+"--- gets completed");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					//sReturn[0]="NOT EXISTED";
+					//return sReturn;
+					return null;
+				}
+				else {
+					File fNewestFile = null;
+					File fDir = new File(sPath);
+					FileFilter ffilefilter=new WildcardFileFilter("*."+sExt);
+					File [] files=fDir.listFiles(ffilefilter);
+					if (files.length>0) {
+						//Arrays.sort(files, LastModifiedFileComparator.LASTMODIFIED_REVERSE);
+						//fNewestFile=files[0];
+						sReturn1 = new String [files.length];
+						for (int i=0; i<files.length; ++i)
+						{
+							sReturn1[i] =files[i].getName();
+						}
+					}
+					if (Constant.bDebugMode) {
+						System.out.println("Function---"+sFunction+"--- gets completed");
+						
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+						
+					return sReturn1;
+						
+				}
+					
+						    
+						
+			}catch (Exception e){
+				if (Constant.bDebugMode) {
+					System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.error(sFunction+"Exception desc : "+e.getMessage());
+				Log.info("Function---"+sFunction+"--- gets completed");
+				throw (e);
+			}
+		}
+		
 }

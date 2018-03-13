@@ -147,11 +147,11 @@ public class DebugUtils {
 		//}
 		//-----------------------------------------------------------------------------------------
 		
-		//Verify Function deleteAFile
+		//Verify Function getLastModifedFile
 		//------------------------------------------------------------------------------
-		String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
-		boolean bExists;
-		String sLastFile;
+		//String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		//boolean bExists;
+		//String sLastFile;
 		//Verify sExt=exe
 		//String sExt="exe";
 		//Verify sExt=txt
@@ -159,16 +159,36 @@ public class DebugUtils {
 		//Verify sExt=*
 		//String sExt="*";
 		//Verify combination in a folder
-		String sExt="*";
-		sFolder="D:\\FRWeb\\003_RunningEnvironment\\03_EclipseMars";
-		try {
-			sLastFile=FileSystems.getLastModifiedFile(sFolder, sExt);
-			System.out.println(sLastFile);
-		} catch (Exception e) {
+		//String sExt="*";
+		//sFolder="D:\\FRWeb\\003_RunningEnvironment\\03_EclipseMars";
+		//try {
+		//	sLastFile=FileSystems.getLastModifiedFile(sFolder, sExt);
+		//	System.out.println(sLastFile);
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 		//-----------------------------------------------------------------------------------------
+		//Verify Function readAFile
+		//-------------------------------------------------------------------------
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty.txt";
+		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty1000.txt";
+		//boolean bExists;
+		//try {
+		//	String[] sRead=FileSystems.readAFile(sActFile);
+		//	if ((sRead !=null) &&  (sRead.length>0)) {
+		//		System.out.println("The array is started");
+		//		for (int i=0; i<sRead.length; i++) {
+		//			System.out.println(sRead[i]);
+		//		}
+		//		System.out.println("The array is completed");
+		//	}
+				
+		//} catch (Exception e) {
+			//	// TODO Auto-generated catch block
+		//		e.printStackTrace();
+		//}
 				
 				
 		
