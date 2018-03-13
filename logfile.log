@@ -499,3 +499,9 @@
 2018-03-13 16:20:22,875 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
 2018-03-13 16:20:22,875 INFO  [Log] The Value is----Test@123---- 
 2018-03-13 16:20:22,875 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-03-13 16:52:18,820 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-13 16:52:18,825 INFO  [Log] Function---|Class Utils.RunningEnv | Method getRunningMachineName |--- gets Started 
+2018-03-13 16:52:18,832 INFO  [Log] Function---|Class Utils.RunningEnv | Method getRunningMachineName |--- gets succeed 
+2018-03-13 16:52:18,832 INFO  [Log] The computer name is----Position500---- 
+2018-03-13 16:52:18,832 INFO  [Log] Function---|Class Utils.RunningEnv | Method getRunningMachineName |--- gets completed 
+2018-03-13 16:52:18,833 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

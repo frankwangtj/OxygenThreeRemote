@@ -8,6 +8,7 @@ import west.com.OxygenThree.utility.FileSystems;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
 import west.com.OxygenThree.utility.Log;
+import west.com.OxygenThree.utility.RunningEnv;
 
 public class DebugUtils {
 	//static WebDriver driver;
@@ -40,6 +41,11 @@ public class DebugUtils {
 		//account.click();
 		
 		//Thread.sleep(2000);
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    File System Starts                                  &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+		
 		
 		//Verify Function isFolderExist
 		//-------------------------------------------------------------------------
@@ -213,19 +219,46 @@ public class DebugUtils {
 		//-------------------------------------------------------------------------
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty.txt";
-		String sActFile="C:\\007_Temp";
-		String sExt="*";
-		boolean bExists;
-		int iCount;
-		try {
-			iCount=FileSystems.getFileCount(sActFile, sExt);
+		//String sActFile="C:\\007_Temp";
+		//String sExt="*";
+		//boolean bExists;
+		//int iCount;
+		//try {
+		//	iCount=FileSystems.getFileCount(sActFile, sExt);
 				
 						
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//--------------------------------------------------------------------------------------
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    File System Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+		
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    RunningEnv Starts                                  &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+		
+		
+		//Verify Function getRunningMachineName
+		//------------------------------------------------------------------------------
+		String sPC;
+		try {
+			sPC=RunningEnv.getRunningMachineName();
+			System.out.println(sPC);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//--------------------------------------------------------------------------------------
+		//-----------------------------------------------------------------------------------------
+				
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    RunningEnv Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
 				
 		
 	}
