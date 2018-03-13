@@ -47,6 +47,9 @@ public class Constant {
     public static final String Path_TestData = "F:\\RemoteRepoSquareOne\\OnlineStoreSquareOne\\src\\testData\\";
 	public static final String File_TestData = "TestData.xlsx";
 	
+	public static final String Path_Config=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\ConfigData\\";
+	public static final String File_Config="ProjectConfig.ini";
+	
 	//public static final String Path_ScreenShot =System.getProperty("user.dir")+"\\Screenshots\\";
 	public static final String Path_ScreenShot ="F:\\RemoteRepoSquareOne\\OnlineStoreSquareOne\\Screenshots\\";
 	//public static final String Path_Geckodriver ="C:\\003_RunningEnvironment\\02_GeckoDriver16\\"; 

@@ -18,6 +18,7 @@ import java.util.ArrayList;		//For array
 import java.util.Arrays;		//For array
 import org.apache.commons.io.filefilter.WildcardFileFilter; //for getLastModifiedFile
 import org.apache.commons.io.comparator.LastModifiedFileComparator; //for getLastModifiedFile
+import org.ini4j.Wini;			//for getKeyValueFromINI
 
 
 public class FileSystems {
@@ -613,5 +614,160 @@ public class FileSystems {
 				throw (e);
 			}
 		}
+	
+	//##############################################################################################################################
+	//#	Function String getKeyValueFromINI(String sSection, String sKey)
+	//#	Purpose:    return key value from an INI file by Section name and key 
+	//# Parameters: sSection, sKey
+	//#	Return : String keyvalue
+	//#	Author: Frank
+	//#	Created:	September 19, 2017
+	//# Last modified: 
+	//# Note: Link is https://stackoverflow.com/questions/34637174/how-to-parse-ini-file-with-sections-in-java
+	//# Note Maven dependency
+	//# 	<dependency>
+	//#   		<groupId>org.ini4j</groupId>
+	//#			<artifactId>ini4j</artifactId>
+	//#			<version>0.5.4</version>
+	//#		</dependency>
+	//# How to test it
+	//		String sSec="ICS_1_1_5_Single";
+	//		String sKey="ICS_URL_Domain";
+	//		System.out.println(utility.FileSystems.getKeyValueFromINI(sSec, sKey));
+	//
+	//##############################################################################################################################
+					
+					
+	public static String getKeyValueFromINI(String sAFile,String sSection, String sKey)throws Exception{
+		String sFunction="|Class Utils.FileSystems | Method getKeyValueFromINI |";
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		boolean bExiste;
+		String sMsg;
+		String sRtn;
+		try{
+			String sPath=Constant.Path_Config;
+			String sFile=Constant.File_Config;
+			//String sActualF=sPath+sFile;
+			//bExiste=FileSystems.isFileExists(sActualF);
+			bExiste=FileSystems.isFileExists(sAFile);
+			if (!bExiste) {
+				if (Constant.bDebugMode) {
+					sMsg="File "+sAFile+" is not existed.";
+					System.out.println(sMsg);
+					Log.info(sMsg);
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				sRtn="NOT EXISTED";
+				return sRtn;
+			}
+			else {
+				//Wini myIni=new Wini(new File("F:/RemoteRepoSquareOne/OnlineStoreSquareOne/src/testData/ICSConfig.ini"));
+				Wini myIni=new Wini(new File(sAFile));
+				String sVal=myIni.fetch(sSection, sKey);
+				if (Constant.bDebugMode) {
+					System.out.println("Function---"+sFunction+"--- gets succeed");
+					Log.info("Function---"+sFunction+"--- gets succeed");
+					System.out.println("The Value is----"+sVal+"----");
+					Log.info("The Value is----"+sVal+"----");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				return sVal;
+			}
+							
+		}catch (Exception e){
+			if (Constant.bDebugMode) {
+				System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			Log.info("Function---"+sFunction+"--- gets completed");
+			throw (e);
+		}
+	}
+	
+	//##############################################################################################################################
+	//#	Function String getConfigFromINI(String sSection, String sKey)
+	//#	Purpose:    return key value from an INI file by Section name and key 
+	//# Parameters: sSection, sKey
+	//#	Return : String keyvalue
+	//#	Author: Frank
+	//#	Created:	September 19, 2017
+	//# Last modified: 
+	//# Note: Link is https://stackoverflow.com/questions/34637174/how-to-parse-ini-file-with-sections-in-java
+	//# Note Maven dependency
+	//# 	<dependency>
+	//#   		<groupId>org.ini4j</groupId>
+	//#			<artifactId>ini4j</artifactId>
+	//#			<version>0.5.4</version>
+	//#		</dependency>
+	//# How to test it
+	//		String sSec="ICS_1_1_5_Single";
+	//		String sKey="ICS_URL_Domain";
+	//		System.out.println(utility.FileSystems.getKeyValueFromINI(sSec, sKey));
+	//
+	//##############################################################################################################################
+						
+						
+	public static String getConfigFromINI(String sSection, String sKey)throws Exception{
+			String sFunction="|Class Utils.FileSystems | Method getConfigFromINI |";
+			if (Constant.bDebugMode) {
+				System.out.println("Function---"+sFunction+"--- gets Started");
+			}
+			Log.info("Function---"+sFunction+"--- gets Started");	
+			boolean bExiste;
+			String sMsg;
+			String sRtn;
+			try{
+				String sPath=Constant.Path_Config;
+				String sFile=Constant.File_Config;
+				String sActualF=sPath+sFile;
+				bExiste=FileSystems.isFileExists(sActualF);
+				if (!bExiste) {
+					if (Constant.bDebugMode) {
+						sMsg="File "+sActualF+" is not existed.";
+						System.out.println(sMsg);
+						Log.info(sMsg);
+						System.out.println("Function---"+sFunction+"--- gets Failed");
+						Log.info("Function---"+sFunction+"--- gets Failed");
+						System.out.println("Function---"+sFunction+"--- gets completed");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					sRtn="NOT EXISTED";
+					return sRtn;
+				}
+				else {
+					//Wini myIni=new Wini(new File("F:/RemoteRepoSquareOne/OnlineStoreSquareOne/src/testData/ICSConfig.ini"));
+					String sVal1=FileSystems.getKeyValueFromINI(sActualF, sSection, sKey);
+					
+					if (Constant.bDebugMode) {
+						System.out.println("Function---"+sFunction+"--- gets succeed");
+						Log.info("Function---"+sFunction+"--- gets succeed");
+						System.out.println("The Value is----"+sVal1+"----");
+						Log.info("The Value is----"+sVal1+"----");
+						System.out.println("Function---"+sFunction+"--- gets completed");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					return sVal1;
+				}
+								
+			}catch (Exception e){
+				if (Constant.bDebugMode) {
+					System.out.println(sFunction+" ---Exception desc : "+e.getMessage());
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.error(sFunction+"Exception desc : "+e.getMessage());
+				Log.info("Function---"+sFunction+"--- gets completed");
+				throw (e);
+			}
+		}
+
+
 		
 }

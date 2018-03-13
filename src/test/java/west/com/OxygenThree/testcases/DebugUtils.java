@@ -173,24 +173,40 @@ public class DebugUtils {
 		//-------------------------------------------------------------------------
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\Test123.txt";
 		//String sActFile="D:\\FRWeb\\004_FileSystemPractice\\TestFolder\\empty.txt";
-		String sActFile="C:\\007_Temp";
-		String sExt="txt";
+		//String sActFile="C:\\007_Temp";
+		//String sExt="txt";
 		//boolean bExists;
-		try {
-			String[] sFileList=FileSystems.getFileNamesInAFolder(sActFile, sExt);
-			if ((sFileList !=null) &&  (sFileList.length>0)) {
-				System.out.println("The array is started");
-				for (int i=0; i<sFileList.length; i++) {
-					System.out.println(sFileList[i]);
-				}
-				System.out.println("The array is completed");
-			}
+		//try {
+		//	String[] sFileList=FileSystems.getFileNamesInAFolder(sActFile, sExt);
+		//	if ((sFileList !=null) &&  (sFileList.length>0)) {
+		//		System.out.println("The array is started");
+		//		for (int i=0; i<sFileList.length; i++) {
+		//			System.out.println(sFileList[i]);
+		//		}
+		//		System.out.println("The array is completed");
+		//	}
 				
-		} catch (Exception e) {
+		//} catch (Exception e) {
 			//	// TODO Auto-generated catch block
-				e.printStackTrace();
+		//		e.printStackTrace();
+		//}
+		//--------------------------------------------------------------------------------------
+		//Verify Function getKeyValueFromINI
+		//------------------------------------------------------------------------------
+		//String sFolder="D:\\FRWeb\\004_FileSystemPractice\\TestFolder";
+		boolean bExists;
+		String sSection="PMIS_1_1_4_Single";
+		String sKey="PMIS_URL";
+		String sRtn;
+		try {
+			//sRtn=FileSystems.getKeyValueFromINI(sSection, sKey);
+			sRtn=FileSystems.getConfigFromINI(sSection, sKey);
+			System.out.println(sRtn);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-				
+		//-----------------------------------------------------------------------------------------
 				
 		
 	}
