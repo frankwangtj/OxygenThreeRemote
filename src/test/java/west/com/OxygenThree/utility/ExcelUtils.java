@@ -13,26 +13,71 @@ public class ExcelUtils {
     private static XSSFWorkbook ExcelWBook;
     private static XSSFCell Cell;
     private static XSSFRow Row;
-//This method is to set the File path and to open the Excel file, Pass Excel Path and Sheetname as Arguments to this method
-public static void setExcelFile(String Path,String SheetName) throws Exception {
-	   String sFunction="Method setExcelFile";
-	   
-	   Log.info(sFunction+" is started");
-       try {
-           // Open the Excel file
+    //This method is to set the File path and to open the Excel file, Pass Excel Path and Sheetname as Arguments to this method
+    
+	//##############################################################################################################################
+	//#	Function void setExcelFile(String sPath, String Sheetname)
+	//#	Purpose:	set the file path and to open the Excel file. 
+    //# Purpose:    working with other Excel functions to handle datadriven framework
+	//# Parameters: sPath, sheetname  (pass the sPath and sheetname to this method
+	//#	Return : void
+	//#	Author: Frank
+	//#	Created:	March 14, 2018
+	//# Last modified: 
+	//# How to test it
+	//##############################################################################################################################
+    public static boolean setExcelFile(String Path,String SheetName) throws Exception {
+    	String sFunction="|Class Utils.ExcelUtils | Method setExcelFile |";
+    	boolean bRtn=false;
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		try {
+			//check if the file exists
+			boolean bExiste;
+			bExiste=FileSystems.isFileExists(Path);
+			if (!bExiste) {
+				if (Constant.bDebugMode) {
+					System.out.println("The file--- "+Path+"--- NOT Existed");
+					Log.info("The file--- "+Path+"--- NOT Existed");
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				
+			}
+			else {
+				// Open the Excel file
+				FileInputStream ExcelFile = new FileInputStream(Path);
+				// Access the required test data sheet
+				ExcelWBook = new XSSFWorkbook(ExcelFile);
+				ExcelWSheet = ExcelWBook.getSheet(SheetName);
+    	    
+				if (Constant.bDebugMode) {
+					System.out.println("Excel sheet opened");
+					Log.info("Excel sheet opened");
+					System.out.println("Function---"+sFunction+"--- gets succeed");
+					Log.info("Function---"+sFunction+"--- gets succeed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+				bRtn=true;
+			}
     	  
-        FileInputStream ExcelFile = new FileInputStream(Path);
-        // Access the required test data sheet
-        ExcelWBook = new XSSFWorkbook(ExcelFile);
-        ExcelWSheet = ExcelWBook.getSheet(SheetName);
-        Log.info("Excel sheet opened");
-        
-        Log.info(sFunction+" is ended");
-        } catch (Exception e){
-        	Log.error("Class Utils.ExcelUtils |"+" "+sFunction+" "+"| Exception desc : "+e.getMessage());
-            throw (e);
+		} catch (Exception e){
+				if (Constant.bDebugMode) {
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+        	    Log.error(sFunction+"Exception desc : "+e.getMessage());
+        	    throw (e);
         }
-}
+		return bRtn;
+    }
 //This method is to read the test data from the Excel cell, in this we are passing parameters as Row num and Col num
 public static String getCellData(int RowNum, int ColNum) throws Exception{
 	String sFunction="Method getCellData";

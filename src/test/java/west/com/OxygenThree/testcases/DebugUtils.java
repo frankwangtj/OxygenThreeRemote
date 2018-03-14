@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
 import west.com.OxygenThree.utility.FileSystems;
+import west.com.OxygenThree.utility.ExcelUtils;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
 import west.com.OxygenThree.utility.Log;
@@ -245,14 +246,14 @@ public class DebugUtils {
 		
 		//Verify Function getRunningMachineName
 		//------------------------------------------------------------------------------
-		String sPC;
-		try {
-			sPC=RunningEnv.getRunningMachineName();
-			System.out.println(sPC);
-		} catch (Exception e) {
+		//String sPC;
+		//try {
+		//	sPC=RunningEnv.getRunningMachineName();
+		//	System.out.println(sPC);
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 		//-----------------------------------------------------------------------------------------
 				
 		
@@ -260,6 +261,32 @@ public class DebugUtils {
 		//&&&&&&&&&&&&&&&&&&    RunningEnv Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
 		//==============================================================================================
 				
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    ExcelUtils Starts                                  &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+				
+				
+		//Verify Function getRunningMachineName
+		//------------------------------------------------------------------------------
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\NOExiste.xlsx";
+		String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_DataDriven_Login.xlsx";
+		String sSheet="sheet1";
+		boolean bRtn;
+		try {
+			bRtn=ExcelUtils.setExcelFile(sPath, sSheet);
+			System.out.println(String.valueOf(bRtn));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//-----------------------------------------------------------------------------------------
+						
+				
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    ExcelUtils Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+
 		
 	}
 	@BeforeMethod

@@ -17,3 +17,4 @@
 . New Fun getFileCount						----is working -- March 13, 2018  
 . New Fun getRunningMachineName				----is working -- March 13, 2018
 . Imp dynamic working Pos500/PMISClient2	----is working -- March 13, 2018
+. New Fun setExcelFile						----is working -- March 14, 2018
