@@ -4,6 +4,7 @@ PageObject annotation		--is done	-----March 7, 2018
 ModularDriven Framework		--is done	-----March 7, 2018
 Function Parameter			--is done	-----March 7, 2018
 Implement flexible Config
- - Constant to specify proj
- - .txt for config per proj
+ - Constant to specify proj	--is done	-----March 13, 2018
+ - .txt for config per proj	--is done	-----March 13, 2018
+Implement dataDriven test
 ToBeContinue2	
