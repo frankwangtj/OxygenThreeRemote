@@ -16,11 +16,11 @@ public class ExcelUtils {
     //This method is to set the File path and to open the Excel file, Pass Excel Path and Sheetname as Arguments to this method
     
 	//##############################################################################################################################
-	//#	Function void setExcelFile(String sPath, String Sheetname)
+	//#	Function boolean setExcelFile(String sPath, String Sheetname)
 	//#	Purpose:	set the file path and to open the Excel file. 
     //# Purpose:    working with other Excel functions to handle datadriven framework
 	//# Parameters: sPath, sheetname  (pass the sPath and sheetname to this method
-	//#	Return : void
+	//#	Return : true/false
 	//#	Author: Frank
 	//#	Created:	March 14, 2018
 	//# Last modified: 
@@ -78,21 +78,51 @@ public class ExcelUtils {
         }
 		return bRtn;
     }
-//This method is to read the test data from the Excel cell, in this we are passing parameters as Row num and Col num
-public static String getCellData(int RowNum, int ColNum) throws Exception{
-	String sFunction="Method getCellData";
-	 Log.info(sFunction+" is started");
-       try{
-    	  Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
-          String CellData = Cell.getStringCellValue();
-          Log.info(sFunction+" is ended");
-          return CellData;
-          }catch (Exception e){
-        	  Log.error("Class Utils.ExcelUtils |"+" "+sFunction+" "+"| Exception desc : "+e.getMessage());
-              throw (e);
+    //This method is to read the test data from the Excel cell, in this we are passing parameters as Row num and Col num
+    
+  //##############################################################################################################################
+  //#	Function String getCellData(int RowNum, int Colnum)
+  //#	Purpose:	read data from specified cell of an Excel file. 
+  //# Purpose:    working with other Excel functions to handle datadriven framework
+  //# Parameters: RowNum, ColNum
+  //#	Return : String data
+  //#	Author: Frank
+  //#	Created:	March 14, 2018
+  //# Last modified: 
+  //# How to test it
+  //##############################################################################################################################
+    public static String getCellData(int RowNum, int ColNum) throws Exception{
+    	String sFunction="|Class Utils.ExcelUtils | Method getCellData |";
+    	boolean bRtn=false;
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");	
+		try{
+			Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
+			String CellData = Cell.getStringCellValue();
+			if (Constant.bDebugMode) {
+				System.out.println("Cell Data is----"+CellData+"----");
+				Log.info("Cell Data is----"+CellData+"----");
+				System.out.println("Function---"+sFunction+"--- gets succeed");
+				Log.info("Function---"+sFunction+"--- gets succeed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+			
+			return CellData;
+        }catch (Exception e){
+        	if (Constant.bDebugMode) {
+				System.out.println("Function---"+sFunction+"--- gets Failed");
+				Log.info("Function---"+sFunction+"--- gets Failed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+    	    Log.error(sFunction+"Exception desc : "+e.getMessage());
+        	throw (e);
            
-          }
-}
+        }
+    }
 //This method is to write in the Excel cell, Row num and Col num are the parameters
 @SuppressWarnings("static-access")
 public static void setCellData(String Result,  int RowNum, int ColNum) throws Exception    {

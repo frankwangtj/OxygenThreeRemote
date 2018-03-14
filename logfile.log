@@ -1154,3 +1154,42 @@
 2018-03-14 15:31:28,535 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
 2018-03-14 15:31:28,535 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
 2018-03-14 15:31:28,536 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:02:19,885 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:02:19,891 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-14 16:02:19,898 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-14 16:02:19,898 INFO  [Log] The file--- D:\FRWeb\002_WebWorkSpace\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-14 16:02:19,898 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-14 16:02:20,552 INFO  [Log] Excel sheet opened 
+2018-03-14 16:02:20,552 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-14 16:02:20,552 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-14 16:02:20,553 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-14 16:02:20,553 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Failed 
+2018-03-14 16:02:20,553 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-14 16:02:20,553 ERROR [Log] |Class Utils.ExcelUtils | Method getCellData |Exception desc : null 
+2018-03-14 16:02:20,559 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:03:27,227 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:03:27,229 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-14 16:03:27,233 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-14 16:03:27,233 INFO  [Log] The file--- D:\FRWeb\002_WebWorkSpace\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-14 16:03:27,233 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-14 16:03:27,896 INFO  [Log] Excel sheet opened 
+2018-03-14 16:03:27,896 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-14 16:03:27,896 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-14 16:03:27,896 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-14 16:03:27,902 INFO  [Log] Cell Data is----user|password---- 
+2018-03-14 16:03:27,903 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-14 16:03:27,903 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-14 16:03:27,903 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:04:43,444 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:04:43,446 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-14 16:04:43,450 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-14 16:04:43,450 INFO  [Log] The file--- D:\FRWeb\002_WebWorkSpace\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-14 16:04:43,450 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-14 16:04:44,107 INFO  [Log] Excel sheet opened 
+2018-03-14 16:04:44,108 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-14 16:04:44,108 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-14 16:04:44,108 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-14 16:04:44,114 INFO  [Log] Cell Data is----Parameter Name---- 
+2018-03-14 16:04:44,114 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-14 16:04:44,114 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-14 16:04:44,115 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
