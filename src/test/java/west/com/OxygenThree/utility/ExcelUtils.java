@@ -120,29 +120,80 @@ public class ExcelUtils {
 			Log.info("Function---"+sFunction+"--- gets completed");
     	    Log.error(sFunction+"Exception desc : "+e.getMessage());
         	throw (e);
+        
            
         }
     }
-//This method is to write in the Excel cell, Row num and Col num are the parameters
-@SuppressWarnings("static-access")
-public static void setCellData(String Result,  int RowNum, int ColNum) throws Exception    {
-       try{
-          Row  = ExcelWSheet.getRow(RowNum);
-        Cell = Row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
-        if (Cell == null) {
-            Cell = Row.createCell(ColNum);
-            Cell.setCellValue(Result);
-            } else {
+    //This method is to write in the Excel cell, Row num and Col num are the parameters
+    
+  //##############################################################################################################################
+  //#	Function Boolean setCellData(int RowNum, int Colnum)
+  //#	Purpose:	write data from specified cell of an Excel file. 
+  //# Purpose:    working with other Excel functions to handle datadriven framework
+  //# Parameters: RowNum, ColNum
+  //#	Return : true/false
+  //#	Author: Frank
+  //#	Created:	March 14, 2018
+  //# Last modified: 
+  //# How to test it
+  //##############################################################################################################################
+  @SuppressWarnings("static-access")
+  public static boolean setCellData(String sFile, String Result,  int RowNum, int ColNum) throws Exception    {
+	  String sFunction="|Class Utils.ExcelUtils | Method setCellData |";
+	  if (Constant.bDebugMode) {
+		  System.out.println("Function---"+sFunction+"--- gets Started");
+	  }
+	  Log.info("Function---"+sFunction+"--- gets Started");	
+	  boolean bRtn=false;
+	  boolean bExiste=false;
+	  try{
+		  Row  = ExcelWSheet.getRow(RowNum);
+		  Cell = Row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
+		  if (Cell == null) {
+			  Cell = Row.createCell(ColNum);
+			  Cell.setCellValue(Result);
+          } 
+		  else {
                 Cell.setCellValue(Result);
-            }
-// Constant variables Test Data path and Test Data file name
-              FileOutputStream fileOut = new FileOutputStream(Constant.Path_TestData + Constant.File_TestData);
-              ExcelWBook.write(fileOut);
-              fileOut.flush();
-            fileOut.close();
-            }catch(Exception e){
-                throw (e);
-        }
+          }
+		  // Constant variables Test Data path and Test Data file name
+          //FileOutputStream fileOut = new FileOutputStream(Constant.Path_TestData + Constant.File_TestData);
+          
+		  bExiste=FileSystems.isFileExists(sFile);
+		  if (!bExiste) {
+			  if (Constant.bDebugMode) {
+					System.out.println("The file--- "+sFile+"--- NOT Existed");
+					Log.info("The file--- "+sFile+"--- NOT Existed");
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+		  }
+		  else {
+			  FileOutputStream fileOut = new FileOutputStream(sFile);
+			  ExcelWBook.write(fileOut);
+			  fileOut.flush();
+			  fileOut.close();
+			  if (Constant.bDebugMode) {
+					System.out.println("Function---"+sFunction+"--- gets succeed");
+					Log.info("Function---"+sFunction+"--- gets succeed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+			  bRtn=true;
+		  }
+          return bRtn;
+	  }catch(Exception e){
+		  if (Constant.bDebugMode) {
+				System.out.println("Function---"+sFunction+"--- gets Failed");
+				Log.info("Function---"+sFunction+"--- gets Failed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			throw (e);
+      }
     }
 
 public static int getRowContains(String sTestCaseName, int colNum) throws Exception{

@@ -1193,3 +1193,15 @@
 2018-03-14 16:04:44,114 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
 2018-03-14 16:04:44,114 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
 2018-03-14 16:04:44,115 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:47:56,572 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:47:56,578 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-14 16:47:56,584 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-14 16:47:56,585 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-14 16:47:56,585 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-14 16:47:56,588 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:49:45,507 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-14 16:49:45,510 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-14 16:49:45,516 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-14 16:49:45,516 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-14 16:49:45,516 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-14 16:49:45,520 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
