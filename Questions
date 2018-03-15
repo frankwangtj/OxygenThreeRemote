@@ -5,4 +5,5 @@ Answer  String[] sRead=FileSystems.readAFile(sActFile);
         (sRead==null /  sRead !=null)
 Question: And logical operator?
 Answer:  &&
-Question: 
+Question:  How to debug a Maven test?
+Answer

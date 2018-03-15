@@ -1581,3 +1581,16 @@
 2018-03-15 14:02:14,971 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
 2018-03-15 14:02:14,971 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
 2018-03-15 14:02:14,971 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 14:19:23,852 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 14:19:23,852 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 14:19:23,852 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 14:19:23,852 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 14:19:23,852 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 14:19:24,462 INFO  [Log] Excel sheet opened 
+2018-03-15 14:19:24,462 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 14:19:24,462 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 14:19:24,462 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-03-15 14:19:24,462 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 14:19:24,462 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-03-15 14:19:24,462 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-03-15 14:19:24,477 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

@@ -322,23 +322,44 @@ public class DebugUtils {
 		
 		//Verify Function getRowContains
 		//------------------------------------------------------------------------------
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_DataDriven_Login.xlsx";
+		//String sSheet="sheet1";
+		//boolean bRtn;
+		//String sValue;
+		//int iFound;
+		//try {
+		//	bRtn=ExcelUtils.setExcelFile(sPath, sSheet);
+		//	System.out.println(String.valueOf(bRtn));
+		//	if (bRtn) {
+		//		iFound=ExcelUtils.getRowContains("RunTestCase_OnlineStoreLogin", 2, 1);
+		//		System.out.println(String.valueOf(iFound));
+		//	}
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//-----------------------------------------------------------------------------------------
+		
+		//Verify Function getRowUsed
+		//------------------------------------------------------------------------------
 		String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_DataDriven_Login.xlsx";
 		String sSheet="sheet1";
 		boolean bRtn;
 		String sValue;
-		int iFound;
+		int iUsed;
 		try {
 			bRtn=ExcelUtils.setExcelFile(sPath, sSheet);
 			System.out.println(String.valueOf(bRtn));
 			if (bRtn) {
-				iFound=ExcelUtils.getRowContains("RunTestCase_OnlineStoreLogin", 2, 1);
-				System.out.println(String.valueOf(iFound));
+				iUsed=ExcelUtils.getRowUsed();
+				System.out.println(String.valueOf(iUsed));
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		//-----------------------------------------------------------------------------------------
+				
 		
 		
 				
