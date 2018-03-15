@@ -308,11 +308,12 @@ public class DebugUtils {
 		boolean bRtn;
 		String sValue;
 		try {
-			//bRtn=ExcelUtils.setExcelFile(sPath, sSheet);
-			//System.out.println(String.valueOf(bRtn));
-			bRtn=ExcelUtils.setCellData(sPath, "test", 1,3);
+			bRtn=ExcelUtils.setExcelFile(sPath, sSheet);
 			System.out.println(String.valueOf(bRtn));
-			
+			if (bRtn) {
+				bRtn=ExcelUtils.setCellData(sPath, "test2", 7,5);
+				System.out.println(String.valueOf(bRtn));
+			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

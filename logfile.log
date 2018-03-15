@@ -1205,3 +1205,147 @@
 2018-03-14 16:49:45,516 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
 2018-03-14 16:49:45,516 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
 2018-03-14 16:49:45,520 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 09:38:32,833 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 09:38:32,833 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 09:38:32,848 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-15 09:38:32,848 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 09:38:32,848 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-15 09:38:32,865 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 09:47:31,785 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 09:47:31,785 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 09:47:31,785 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 09:47:31,785 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 09:47:31,785 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 09:47:33,221 INFO  [Log] Excel sheet opened 
+2018-03-15 09:47:33,221 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 09:47:33,221 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 09:47:33,221 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 09:47:33,221 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 09:47:33,221 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 09:47:33,236 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 09:47:33,331 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-03-15 09:47:33,347 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 09:47:33,347 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 09:56:03,817 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 09:56:03,833 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 09:56:03,833 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 09:56:03,833 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 09:56:03,833 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 09:56:05,191 INFO  [Log] Excel sheet opened 
+2018-03-15 09:56:05,191 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 09:56:05,191 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 09:56:05,206 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 09:56:05,206 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-15 09:56:05,206 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 09:56:05,206 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-15 09:56:05,224 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:17:14,697 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:17:14,697 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 10:17:14,712 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 10:17:14,712 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 10:17:14,712 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 10:17:15,368 INFO  [Log] Excel sheet opened 
+2018-03-15 10:17:15,368 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 10:17:15,368 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 10:17:15,368 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 10:17:15,368 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-15 10:17:15,368 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 10:17:15,368 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-15 10:17:15,384 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:18:43,488 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:18:43,488 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 10:18:43,504 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 10:18:43,504 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 10:18:43,504 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 10:18:44,066 INFO  [Log] Excel sheet opened 
+2018-03-15 10:18:44,066 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 10:18:44,066 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 10:18:44,066 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 10:18:44,098 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 10:18:44,098 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 10:18:44,098 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 10:18:44,160 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-03-15 10:18:44,160 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 10:18:44,176 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:19:58,900 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:19:59,322 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 10:19:59,322 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 10:19:59,322 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 10:19:59,322 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 10:20:00,992 INFO  [Log] Excel sheet opened 
+2018-03-15 10:20:00,992 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 10:20:00,992 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 10:20:00,992 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 10:20:00,992 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-15 10:20:00,992 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 10:20:00,992 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-15 10:20:01,007 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:49:03,087 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:49:03,087 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 10:49:03,087 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 10:49:03,087 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 10:49:03,087 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 10:49:03,711 INFO  [Log] Excel sheet opened 
+2018-03-15 10:49:03,711 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 10:49:03,711 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 10:49:03,711 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 10:49:03,711 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-15 10:49:03,711 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 10:49:03,711 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-15 10:49:03,743 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:55:26,505 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 10:55:26,505 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 10:55:26,505 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 10:55:26,505 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 10:55:26,505 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 10:55:27,068 INFO  [Log] Excel sheet opened 
+2018-03-15 10:55:27,068 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 10:55:27,068 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 10:55:27,068 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 10:55:27,068 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-15 10:55:27,068 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 10:55:27,068 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-15 10:55:27,084 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 11:02:09,407 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 11:02:09,423 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 11:02:09,423 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 11:02:09,423 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 11:02:09,423 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 11:02:10,234 INFO  [Log] Excel sheet opened 
+2018-03-15 11:02:10,234 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 11:02:10,234 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 11:02:10,234 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 11:02:10,234 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Failed 
+2018-03-15 11:02:10,234 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 11:02:10,234 ERROR [Log] |Class Utils.ExcelUtils | Method setCellData |Exception desc : null 
+2018-03-15 11:02:10,250 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 11:03:26,579 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 11:03:26,594 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 11:03:26,594 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 11:03:26,594 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 11:03:26,594 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 11:03:27,327 INFO  [Log] Excel sheet opened 
+2018-03-15 11:03:27,327 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 11:03:27,327 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 11:03:27,327 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 11:03:27,343 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 11:03:27,343 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 11:03:27,343 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 11:03:27,422 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-03-15 11:03:27,438 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 11:03:27,438 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 11:05:24,525 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 11:05:24,540 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 11:05:24,540 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 11:05:24,540 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 11:05:24,540 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 11:05:25,274 INFO  [Log] Excel sheet opened 
+2018-03-15 11:05:25,274 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 11:05:25,274 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 11:05:25,274 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-03-15 11:05:25,289 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 11:05:25,289 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 11:05:25,289 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 11:05:25,384 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-03-15 11:05:25,384 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-03-15 11:05:25,384 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

@@ -1,2 +1,4 @@
 In order to improve performance, when you call a function, call it once and assign to a variable. Never and never call it everywhere!!!
 For example sizeConverting
+In Excel file handling part, we have to open file first and then read or write for now.
+setCellData is only working for replacing used cell

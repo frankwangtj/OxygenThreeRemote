@@ -147,10 +147,16 @@ public class ExcelUtils {
 	  boolean bRtn=false;
 	  boolean bExiste=false;
 	  try{
+		  //Excel is 0 based instead of 1
 		  Row  = ExcelWSheet.getRow(RowNum);
+		  if (Row==null) {
+			  //This statement fix create a new line
+			  Row=ExcelWSheet.createRow(RowNum);
+		  }
 		  Cell = Row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
 		  if (Cell == null) {
 			  Cell = Row.createCell(ColNum);
+			  //Cell=ExcelWSheet.getRow(RowNum).createCell(ColNum);
 			  Cell.setCellValue(Result);
           } 
 		  else {
