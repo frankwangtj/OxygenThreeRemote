@@ -22,3 +22,4 @@
 . New Fun setCellData (Open F first)		----is working -- March 15, 2018
 . New Fun getRowContains					----is working -- March 15, 2018
 . New Fun getRowUSed						----is working -- March 15, 2018
+. New Fun createAnExcel (default header)	----is working -- March 15, 2018

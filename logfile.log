@@ -1594,3 +1594,42 @@
 2018-03-15 14:19:24,462 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
 2018-03-15 14:19:24,462 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
 2018-03-15 14:19:24,477 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:07:30,555 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:07:30,570 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:07:31,476 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:09:31,768 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:09:31,768 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:09:32,314 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:11:37,737 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:11:37,737 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:11:38,298 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:25:58,509 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:25:58,509 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:25:59,228 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:28:00,519 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:28:00,519 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:28:01,081 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:29:58,703 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:29:58,703 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:29:59,250 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:31:07,873 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:31:07,888 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:31:08,435 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:33:53,928 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:33:53,928 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:33:54,397 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Failed 
+2018-03-15 16:33:54,397 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets completed 
+2018-03-15 16:33:54,397 ERROR [Log] |Class Utils.ExcelUtils | Method CreateAnExcel |Exception desc : null 
+2018-03-15 16:33:54,413 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:34:38,617 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:34:38,617 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:34:39,164 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:36:07,460 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:36:07,460 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:36:08,100 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:37:31,694 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:37:31,726 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:37:32,366 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:38:01,955 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 16:38:01,955 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-15 16:38:02,547 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

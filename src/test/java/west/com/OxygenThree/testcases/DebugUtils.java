@@ -342,23 +342,44 @@ public class DebugUtils {
 		
 		//Verify Function getRowUsed
 		//------------------------------------------------------------------------------
-		String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_DataDriven_Login.xlsx";
-		String sSheet="sheet1";
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_DataDriven_Login.xlsx";
+		//String sSheet="sheet1";
+		//boolean bRtn;
+		//String sValue;
+		//int iUsed;
+		//try {
+		//	bRtn=ExcelUtils.setExcelFile(sPath, sSheet);
+		//	System.out.println(String.valueOf(bRtn));
+		//	if (bRtn) {
+		//		iUsed=ExcelUtils.getRowUsed();
+		//		System.out.println(String.valueOf(iUsed));
+		//	}
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+		//	e.printStackTrace();
+		//}
+		//-----------------------------------------------------------------------------------------
+		
+		//Verify Function createAnExcel
+		//------------------------------------------------------------------------------
+		String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
+		String sSheet="Result";
 		boolean bRtn;
 		String sValue;
+		String sFormat="";
+		
 		int iUsed;
 		try {
-			bRtn=ExcelUtils.setExcelFile(sPath, sSheet);
+			bRtn=ExcelUtils.CreateAnExcel(sPath, sSheet, sFormat);
 			System.out.println(String.valueOf(bRtn));
-			if (bRtn) {
-				iUsed=ExcelUtils.getRowUsed();
-				System.out.println(String.valueOf(iUsed));
-			}
+			
+		
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		//-----------------------------------------------------------------------------------------
+
 				
 		
 		

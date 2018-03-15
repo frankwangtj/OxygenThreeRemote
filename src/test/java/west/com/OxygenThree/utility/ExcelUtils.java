@@ -329,5 +329,68 @@ public class ExcelUtils {
 	  }
 
   }
+  
+  
+  //##############################################################################################################################
+  //#	Function boolean CreateAnExcel(String sFile, String sFormat)
+  //#	Purpose:	Create an Excel file with specified format 
+  //# Purpose:    working with other Excel functions to handle datadriven framework
+  //# Parameters: sFile, sFormat
+  //#	Return : true/false
+  //#	Author: Frank
+  //#	Created:	March 15, 2018
+  //# Last modified: 
+  //# How to test it
+  //##############################################################################################################################
+
+  public static boolean CreateAnExcel(String sFile, String sSheet, String sFormat) throws Exception    {
+	  String sFunction="|Class Utils.ExcelUtils | Method CreateAnExcel |";
+	  if (Constant.bDebugMode) {
+		  System.out.println("Function---"+sFunction+"--- gets Started");
+	  }
+	  Log.info("Function---"+sFunction+"--- gets Started");	
+	  boolean bRtn=false;
+	  boolean bExiste=false;
+	
+	  XSSFWorkbook workbook= new XSSFWorkbook();
+	  if (sSheet==null) {
+		  sSheet="TestingResult";
+	  }
+	  XSSFSheet mySheet=workbook.createSheet(sSheet);
+	  Row  = mySheet.createRow(0);
+	  Row = mySheet.getRow(0);
+	  try{		  
+		
+		  if ((sFormat==null) || (sFormat=="")) {
+			  Cell = Row.createCell(0);
+			  sFormat="Result";
+			  Cell.setCellValue(sFormat);
+		  }
+			  
+		 
+		
+		  FileOutputStream fileOut = new FileOutputStream(sFile);
+		  		  
+		  //ExcelWBook.write(fileOut);
+			  
+		  
+		  workbook.write(fileOut);
+		  fileOut.flush();
+		  fileOut.close();
+		  bRtn=true;
+		  	
+          return bRtn;
+	  }catch(Exception e){
+		  if (Constant.bDebugMode) {
+				System.out.println("Function---"+sFunction+"--- gets Failed");
+				Log.info("Function---"+sFunction+"--- gets Failed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			throw (e);
+      }
+    }
+  
 
 }
