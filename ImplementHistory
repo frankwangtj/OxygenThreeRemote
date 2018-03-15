@@ -20,3 +20,4 @@
 . New Fun setExcelFile						----is working -- March 14, 2018
 . New Fun getCellData (NotHandleNullCell)	----is working -- March 14, 2018
 . New Fun setCellData (Open F first)		----is working -- March 15, 2018
+. New Fun getRowContains					----is working -- March 15, 2018

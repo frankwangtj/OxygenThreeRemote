@@ -201,20 +201,87 @@ public class ExcelUtils {
 			throw (e);
       }
     }
+  
+//##############################################################################################################################
+//#	Function int getRowContains (String sTestCaseName, int Colnum)
+//#	Purpose:	return the first line contains a specific String. 
+//# Purpose:    working with other Excel functions to handle datadriven framework
+//# Parameters: sTestCase, RowStart, ColNum
+//#	Return : RowNum
+//#	Author: Frank
+//#	Created:	March 15, 2018
+//# Last modified: 
+//# How to test it
+//##############################################################################################################################
 
-public static int getRowContains(String sTestCaseName, int colNum) throws Exception{
+public static int getRowContains(String sTestCaseName, int iRowStart, int colNum) throws Exception{
+	String sFunction="|Class Utils.ExcelUtils | Method getRowContains |";
+	if (Constant.bDebugMode) {
+		System.out.println("Function---"+sFunction+"--- gets Started");
+	}
+	Log.info("Function---"+sFunction+"--- gets Started");
 	int i;
+	boolean bFound=false;
 	try {
 		int rowCount = ExcelUtils.getRowUsed();
-		for ( i=0 ; i<rowCount; i++){
-			if  (ExcelUtils.getCellData(i,colNum).equalsIgnoreCase(sTestCaseName)){
-				break;
+		if (iRowStart>rowCount-1) {  //Reason is Excel is 0 based.
+			 if (Constant.bDebugMode) {
+					System.out.println("The specified start row --- "+String.valueOf(iRowStart+1)+"--- is greater than Used Row--"+String.valueOf(rowCount));
+					Log.info("The specified start row --- "+String.valueOf(iRowStart+1)+"--- is greater than Used Row--"+String.valueOf(rowCount));
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+			i=-1;
+		}
+		else {
+			for ( i=iRowStart ; i<rowCount; i++){
+				if (Constant.bDebugMode) {
+					int iTotalRow=rowCount;
+					System.out.println("Total Row Count is----"+String.valueOf(iTotalRow));
+					Log.info("Total Row Count is----"+String.valueOf(iTotalRow));
+				}
+				if  (ExcelUtils.getCellData(i,colNum).equalsIgnoreCase(sTestCaseName)){
+					bFound=true;
+					if (Constant.bDebugMode) {
+						System.out.println("Found----"+sTestCaseName+"----on row----"+i);
+						Log.info("Found----"+sTestCaseName+"----on row----"+i);
+						System.out.println("Function---"+sFunction+"--- gets succeed");
+						Log.info("Function---"+sFunction+"--- gets succeed");
+						System.out.println("Function---"+sFunction+"--- gets completed");
+					}
+					Log.info("Function---"+sFunction+"--- gets completed");
+					break;
+				}
+				
+					
 			}
+			
+			if ((!bFound) && (i>rowCount)) {
+				if (Constant.bDebugMode) {
+					System.out.println("Failed to find----"+sTestCaseName);
+					Log.info("Failed to find----"+sTestCaseName);
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+					Log.info("Function---"+sFunction+"--- gets completed");
+					i=-1;
+				}
+				
+			}
+			
 		}
 		return i;
-			}catch (Exception e){
-		Log.error("Class ExcelUtil | Method getRowContains | Exception desc : " + e.getMessage());
-		throw(e);
+	}catch (Exception e){
+		 if (Constant.bDebugMode) {
+				System.out.println("Function---"+sFunction+"--- gets Failed");
+				Log.info("Function---"+sFunction+"--- gets Failed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			throw(e);
 		}
 	}
 

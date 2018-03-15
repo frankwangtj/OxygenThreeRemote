@@ -1349,3 +1349,235 @@
 2018-03-15 11:05:25,384 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
 2018-03-15 11:05:25,384 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
 2018-03-15 11:05:25,384 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:36:43,287 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:36:43,287 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:36:43,287 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:36:43,287 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:36:43,287 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:36:44,800 INFO  [Log] Excel sheet opened 
+2018-03-15 13:36:44,800 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:36:44,800 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:36:44,800 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:36:44,800 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:36:44,816 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:36:44,831 INFO  [Log] Cell Data is----Function Name---- 
+2018-03-15 13:36:44,831 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:36:44,831 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:36:44,831 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:36:44,831 INFO  [Log] Cell Data is----RunTestCase_OnlineStoreLogin---- 
+2018-03-15 13:36:44,831 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:36:44,831 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:36:44,831 INFO  [Log] Found----RunTestCase_OnlineStoreLogin----on row----1 
+2018-03-15 13:36:44,831 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets succeed 
+2018-03-15 13:36:44,831 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:36:44,847 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:37:55,111 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:37:55,111 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:37:55,111 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:37:55,111 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:37:55,111 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:37:55,705 INFO  [Log] Excel sheet opened 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:37:55,705 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:37:55,705 INFO  [Log] Cell Data is----RunTestCase_OnlineStoreLogin---- 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:37:55,705 INFO  [Log] Found----RunTestCase_OnlineStoreLogin----on row----1 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets succeed 
+2018-03-15 13:37:55,705 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:37:55,736 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:39:08,964 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:39:08,964 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:39:08,980 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:39:08,980 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:39:08,980 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:39:09,542 INFO  [Log] Excel sheet opened 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:39:09,542 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:39:09,542 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:39:09,542 INFO  [Log] Failed to find----RunTestCase_OnlineStoreLogin 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Failed 
+2018-03-15 13:39:09,542 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:39:09,542 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:40:20,342 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:40:20,342 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:40:20,357 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:40:20,357 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:40:20,357 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:40:20,998 INFO  [Log] Excel sheet opened 
+2018-03-15 13:40:20,998 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:40:20,998 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:40:20,998 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:40:20,998 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:40:20,998 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:40:20,998 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:40:21,013 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:40:21,013 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:40:21,013 INFO  [Log] Failed to find----RunTestCase_OnlineStoreLogin 
+2018-03-15 13:40:21,013 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Failed 
+2018-03-15 13:40:21,013 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:40:21,013 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:45:15,841 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:45:15,841 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:45:15,841 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:45:15,841 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:45:15,841 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:45:16,419 INFO  [Log] Excel sheet opened 
+2018-03-15 13:45:16,419 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:45:16,419 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:45:16,419 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:45:16,419 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:45:16,419 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:45:16,435 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:45:16,435 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:45:16,435 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:45:16,435 INFO  [Log] Failed to find----RunTestCase_OnlineStoreLogin 
+2018-03-15 13:45:16,435 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Failed 
+2018-03-15 13:45:16,435 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:45:16,435 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:48:13,241 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:48:13,241 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:48:13,241 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:48:13,241 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:48:13,241 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:48:13,958 INFO  [Log] Excel sheet opened 
+2018-03-15 13:48:13,958 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:48:13,958 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:48:13,958 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:48:13,958 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:48:13,958 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:48:13,958 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:48:13,958 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:48:13,958 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:48:13,958 INFO  [Log] Failed to find----RunTestCase_OnlineStoreLogin 
+2018-03-15 13:48:13,974 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Failed 
+2018-03-15 13:48:13,974 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:48:13,974 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:48:40,646 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:48:40,646 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:48:40,646 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:48:40,646 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:48:40,646 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:48:41,223 INFO  [Log] Excel sheet opened 
+2018-03-15 13:48:41,223 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:48:41,223 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:48:41,223 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:48:41,223 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:48:41,223 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:48:41,239 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:48:41,239 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:48:41,239 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:48:41,239 INFO  [Log] Failed to find----RunTestCase_OnlineStoreLogin 
+2018-03-15 13:48:41,239 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Failed 
+2018-03-15 13:48:41,239 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:48:41,239 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:51:48,711 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:51:48,711 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:51:48,727 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:51:48,727 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:51:48,727 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:51:49,321 INFO  [Log] Excel sheet opened 
+2018-03-15 13:51:49,321 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:51:49,321 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:51:49,321 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:51:49,321 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:51:49,321 INFO  [Log] Total Row Count is----3 
+2018-03-15 13:51:49,321 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:51:49,336 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:51:49,336 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:51:49,336 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:51:49,336 INFO  [Log] Failed to find----RunTestCase_OnlineStoreLogin 
+2018-03-15 13:51:49,336 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Failed 
+2018-03-15 13:51:49,336 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:51:49,336 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:54:44,989 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:54:45,005 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:54:45,005 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:54:45,005 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:54:45,005 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:54:45,568 INFO  [Log] Excel sheet opened 
+2018-03-15 13:54:45,568 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:54:45,568 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:54:45,568 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:54:45,568 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:54:45,568 INFO  [Log] Total Row Count is----3 
+2018-03-15 13:54:45,568 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:54:45,583 INFO  [Log] Cell Data is----Function Name---- 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:54:45,583 INFO  [Log] Total Row Count is----3 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:54:45,583 INFO  [Log] Cell Data is----RunTestCase_OnlineStoreLogin---- 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:54:45,583 INFO  [Log] Total Row Count is----3 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:54:45,583 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:54:45,583 INFO  [Log] Found----RunTestCase_ICSLogin----on row----2 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets succeed 
+2018-03-15 13:54:45,583 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:54:45,599 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:55:23,797 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:55:23,797 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:55:23,797 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:55:23,797 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:55:23,797 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:55:24,360 INFO  [Log] Excel sheet opened 
+2018-03-15 13:55:24,360 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:55:24,360 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:55:24,360 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:55:24,360 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:55:24,360 INFO  [Log] Total Row Count is----3 
+2018-03-15 13:55:24,360 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:55:24,376 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:55:24,376 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:55:24,376 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:55:24,376 INFO  [Log] Found----RunTestCase_ICSLogin----on row----2 
+2018-03-15 13:55:24,376 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets succeed 
+2018-03-15 13:55:24,376 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:55:24,376 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:57:00,170 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 13:57:00,170 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 13:57:00,186 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 13:57:00,186 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 13:57:00,186 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 13:57:00,763 INFO  [Log] Excel sheet opened 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 13:57:00,763 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 13:57:00,763 INFO  [Log] Total Row Count is----3 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 13:57:00,763 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 13:57:00,763 INFO  [Log] Failed to find----RunTestCase_OnlineStoreLogin 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Failed 
+2018-03-15 13:57:00,763 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets completed 
+2018-03-15 13:57:00,763 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 14:02:14,377 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-15 14:02:14,392 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-03-15 14:02:14,392 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-15 14:02:14,392 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_DataDriven_Login.xlsx ---Exists 
+2018-03-15 14:02:14,392 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-15 14:02:14,955 INFO  [Log] Excel sheet opened 
+2018-03-15 14:02:14,955 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-03-15 14:02:14,955 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-03-15 14:02:14,955 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowContains |--- gets Started 
+2018-03-15 14:02:14,955 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-03-15 14:02:14,955 INFO  [Log] Total Row Count is----3 
+2018-03-15 14:02:14,955 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets Started 
+2018-03-15 14:02:14,971 INFO  [Log] Cell Data is----RunTestCase_ICSLogin---- 
+2018-03-15 14:02:14,971 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets succeed 
+2018-03-15 14:02:14,971 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getCellData |--- gets completed 
+2018-03-15 14:02:14,971 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
