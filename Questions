@@ -6,4 +6,11 @@ Answer  String[] sRead=FileSystems.readAFile(sActFile);
 Question: And logical operator?
 Answer:  &&
 Question:  How to debug a Maven test?
-Answer
+Answer: You don't need to debug in a maven project. 
+        1. Run Maven once to download all the required jars.
+        2. And then debug from your eclipse.
+        3. Normally, maven project is made by testng. So you need to install testng for your eclipse.
+        4. The steps how to install testng, please follow: http://www.software-testing-tutorials-automation.com/2014/03/steps-of-downloading-and-installing.html
+        5. Then F5 is step into, F6 is step over, F7 step return, F8 Resume 
+        6. Ctrl+shift+B---Toggle Breakpoint
+        7. Ctrl+shift+I---Inspect
