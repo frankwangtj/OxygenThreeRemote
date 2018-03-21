@@ -351,35 +351,48 @@ public class ExcelUtils {
 	  Log.info("Function---"+sFunction+"--- gets Started");	
 	  boolean bRtn=false;
 	  boolean bExiste=false;
-	
-	  XSSFWorkbook workbook= new XSSFWorkbook();
-	  if (sSheet==null) {
-		  sSheet="TestingResult";
-	  }
-	  XSSFSheet mySheet=workbook.createSheet(sSheet);
-	  Row  = mySheet.createRow(0);
-	  Row = mySheet.getRow(0);
-	  try{		  
-		
-		  if ((sFormat==null) || (sFormat=="")) {
-			  Cell = Row.createCell(0);
-			  sFormat="Result";
-			  Cell.setCellValue(sFormat);
+	  boolean bFileExist=false;
+	  
+	  try{
+		  bFileExist=FileSystems.isFileExists(sFile);
+		  if (bFileExist) {
+			  bRtn=false;
+			  if (Constant.bDebugMode) {
+					System.out.println("The file--- "+sFile+"--- Existed");
+					Log.info("The file--- "+sFile+"--- Existed");
+					System.out.println("Function---"+sFunction+"--- gets Failed");
+					Log.info("Function---"+sFunction+"--- gets Failed");
+					System.out.println("Function---"+sFunction+"--- gets completed");
+				}
+				Log.info("Function---"+sFunction+"--- gets completed");
+			  return bRtn;
 		  }
+	  
+		  else {
+		    XSSFWorkbook workbook= new XSSFWorkbook();
+		    if (sSheet==null) {
+		    	sSheet="TestingResult";
+		    }
+		    XSSFSheet mySheet=workbook.createSheet(sSheet);
+		    Row  = mySheet.createRow(0);
+		    Row = mySheet.getRow(0);
+		    if ((sFormat==null) || (sFormat=="")) {
+		    	Cell = Row.createCell(0);
+		    	sFormat="Result";
+		    	Cell.setCellValue(sFormat);
+		    }
 			  
-		 
-		
-		  FileOutputStream fileOut = new FileOutputStream(sFile);
+		    FileOutputStream fileOut = new FileOutputStream(sFile);
 		  		  
-		  //ExcelWBook.write(fileOut);
-			  
-		  
-		  workbook.write(fileOut);
-		  fileOut.flush();
-		  fileOut.close();
-		  bRtn=true;
+		    //ExcelWBook.write(fileOut);
+		    workbook.write(fileOut);
+		    fileOut.flush();
+		    fileOut.close();
+		    bRtn=true;
+	  
 		  	
-          return bRtn;
+		    return bRtn;
+		  }
 	  }catch(Exception e){
 		  if (Constant.bDebugMode) {
 				System.out.println("Function---"+sFunction+"--- gets Failed");
@@ -391,6 +404,5 @@ public class ExcelUtils {
 			throw (e);
       }
     }
-  
-
-}
+	  
+ }

@@ -1659,3 +1659,18 @@
 2018-03-19 15:00:45,052 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
 2018-03-19 18:39:00,536 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
 2018-03-19 18:40:17,118 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-20 20:23:33,461 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-20 20:23:33,523 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-20 20:23:33,539 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-20 20:23:33,539 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_TestResult.xlsx ---Exists 
+2018-03-20 20:23:33,539 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-20 20:23:33,554 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 10:09:21,247 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 10:09:21,279 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-21 10:09:21,279 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-21 10:09:21,294 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_TestResult.xlsx ---Exists 
+2018-03-21 10:09:21,294 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-21 10:09:21,294 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_TestResult.xlsx--- Existed 
+2018-03-21 10:09:21,294 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Failed 
+2018-03-21 10:09:21,294 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets completed 
+2018-03-21 10:09:21,310 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
