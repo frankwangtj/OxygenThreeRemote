@@ -11,6 +11,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.*;
 import west.com.OxygenThree.utility.Log;
 import west.com.OxygenThree.utility.RunningEnv;
+import west.com.OxygenThree.utility.StringOp;
 
 public class DebugUtils {
 	//static WebDriver driver;
@@ -363,22 +364,22 @@ public class DebugUtils {
 		
 		//Verify Function createAnExcel
 		//------------------------------------------------------------------------------
-		String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
-		String sSheet="Result";
-		boolean bRtn;
-		String sValue;
-		String sFormat="";
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
+		//String sSheet="Result";
+		//boolean bRtn;
+		//String sValue;
+		//String sFormat="";
 		
-		int iUsed;
-		try {
-			bRtn=ExcelUtils.CreateAnExcel(sPath, sSheet, sFormat);
-			System.out.println(String.valueOf(bRtn));
+		//int iUsed;
+		//try {
+		//	bRtn=ExcelUtils.CreateAnExcel(sPath, sSheet, sFormat);
+		//	System.out.println(String.valueOf(bRtn));
 			
 		
-		} catch (Exception e) {
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 		//-----------------------------------------------------------------------------------------
 
 				
@@ -388,6 +389,46 @@ public class DebugUtils {
 		//==============================================================================================
 		//&&&&&&&&&&&&&&&&&&    ExcelUtils Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
 		//==============================================================================================
+		
+		
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    StringOp Starts                                  &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+
+		
+		//Verify Function createAnExcel
+		//------------------------------------------------------------------------------
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
+		String sTest="hi,I,m,paul,Second";
+		String sDelimiter="\\,";  //Split by ,
+		
+				
+		
+		try {
+			String[] sResult = StringOp.getSplitStr(sTest, sDelimiter);
+			for (int i=0; i<sResult.length; i++) {
+				System.out.println(sResult[i]);
+			}
+			
+					
+				
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//-----------------------------------------------------------------------------------------
+
+		
+		
+		
+		
+		
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    StringOp Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+				
 
 		
 	}
