@@ -1684,3 +1684,21 @@
 2018-03-21 14:55:14,920 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
 2018-03-21 14:55:14,920 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
 2018-03-21 14:55:14,920 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 15:36:57,047 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 15:36:57,047 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-21 15:36:57,047 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-21 15:36:57,047 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_TestResult.xlsx ---NOT Exists 
+2018-03-21 15:36:57,047 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-21 15:37:05,285 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets Started 
+2018-03-21 15:37:05,285 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
+2018-03-21 15:37:05,285 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
+2018-03-21 15:37:08,079 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 15:39:42,343 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 15:39:42,390 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-21 15:39:42,546 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-21 15:39:42,546 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_TestResult.xlsx ---NOT Exists 
+2018-03-21 15:39:42,546 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-21 15:39:44,059 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets Started 
+2018-03-21 15:39:44,059 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
+2018-03-21 15:39:44,059 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
+2018-03-21 15:39:46,323 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

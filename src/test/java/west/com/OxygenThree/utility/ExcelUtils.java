@@ -343,7 +343,7 @@ public class ExcelUtils {
   //# How to test it
   //##############################################################################################################################
 
-  public static boolean CreateAnExcel(String sFile, String sSheet, String sFormat) throws Exception    {
+  public static boolean CreateAnExcel(String sFile, String sSheet, String sFormat, String sDelimiter) throws Exception    {
 	  String sFunction="|Class Utils.ExcelUtils | Method CreateAnExcel |";
 	  if (Constant.bDebugMode) {
 		  System.out.println("Function---"+sFunction+"--- gets Started");
@@ -380,6 +380,16 @@ public class ExcelUtils {
 		    	Cell = Row.createCell(0);
 		    	sFormat="Result";
 		    	Cell.setCellValue(sFormat);
+		    }
+		    
+		    else {
+		    	String[] sResultFormat = StringOp.getSplitStr(sFormat, sDelimiter);
+		    	for (int i=0; i<sResultFormat.length; i++) {
+					System.out.println(sResultFormat[i]);
+					Cell = Row.createCell(i);
+					Cell.setCellValue(sResultFormat[i]);
+					
+				}
 		    }
 			  
 		    FileOutputStream fileOut = new FileOutputStream(sFile);

@@ -364,22 +364,24 @@ public class DebugUtils {
 		
 		//Verify Function createAnExcel
 		//------------------------------------------------------------------------------
-		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
-		//String sSheet="Result";
-		//boolean bRtn;
+		String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
+		String sSheet="Result";
+		boolean bRtn;
 		//String sValue;
 		//String sFormat="";
+		String sFormat="Report Names|Test Result";
+		String sDelimiter="\\|";  //Split by ,
 		
 		//int iUsed;
-		//try {
-		//	bRtn=ExcelUtils.CreateAnExcel(sPath, sSheet, sFormat);
-		//	System.out.println(String.valueOf(bRtn));
+		try {
+			bRtn=ExcelUtils.CreateAnExcel(sPath, sSheet, sFormat,sDelimiter);
+			System.out.println(String.valueOf(bRtn));
 			
 		
-		//} catch (Exception e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-		//	e.printStackTrace();
-		//}
+			e.printStackTrace();
+		}
 		//-----------------------------------------------------------------------------------------
 
 				
@@ -400,23 +402,23 @@ public class DebugUtils {
 		//Verify Function createAnExcel
 		//------------------------------------------------------------------------------
 		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
-		String sTest="hi,I,m,paul,Second";
-		String sDelimiter="\\,";  //Split by ,
+		//String sTest="hi,I,m,paul,Second";
+		//String sDelimiter="\\,";  //Split by ,
 		
 				
 		
-		try {
-			String[] sResult = StringOp.getSplitStr(sTest, sDelimiter);
-			for (int i=0; i<sResult.length; i++) {
-				System.out.println(sResult[i]);
-			}
+		//try {
+		//	String[] sResult = StringOp.getSplitStr(sTest, sDelimiter);
+		//	for (int i=0; i<sResult.length; i++) {
+		//		System.out.println(sResult[i]);
+		//	}
 			
 					
 				
-		} catch (Exception e) {
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 		//-----------------------------------------------------------------------------------------
 
 		
