@@ -1702,3 +1702,60 @@
 2018-03-21 15:39:44,059 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
 2018-03-21 15:39:44,059 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
 2018-03-21 15:39:46,323 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 20:10:31,302 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-21 20:10:31,329 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Started 
+2018-03-21 20:10:31,332 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-03-21 20:10:31,332 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_TestResult.xlsx ---Exists 
+2018-03-21 20:10:31,333 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-03-21 20:10:31,333 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\DataDrivenDataSet\OnlineStore_TestResult.xlsx--- Existed 
+2018-03-21 20:10:31,333 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets Failed 
+2018-03-21 20:10:31,334 INFO  [Log] Function---|Class Utils.ExcelUtils | Method CreateAnExcel |--- gets completed 
+2018-03-21 20:10:31,336 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:30:17,253 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:30:17,269 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:30:17,285 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:30:17,285 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:30:17,285 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Unparseable date: "Wed Mar 28 19:30:17 EDT 2018" 
+2018-03-28 19:30:17,285 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:31:53,377 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:31:53,377 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:31:53,393 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:31:53,393 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:31:53,393 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Unparseable date: "Wed Mar 28 19:31:53 EDT 2018" 
+2018-03-28 19:31:53,411 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:35:28,723 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:35:28,739 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:35:28,739 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:35:28,739 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:35:28,739 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Unparseable date: "Wed Mar 28 19:35:28 EDT 2018" 
+2018-03-28 19:35:28,755 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:38:08,263 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:38:08,278 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:38:08,278 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:38:08,278 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:38:08,278 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Illegal pattern character 'o' 
+2018-03-28 19:38:08,295 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:42:13,042 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:42:13,058 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:42:13,058 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:42:13,058 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:42:13,058 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Illegal pattern character 'o' 
+2018-03-28 19:42:13,058 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:43:19,411 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:43:19,427 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:43:19,427 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:43:19,427 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:43:19,427 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Illegal pattern character 'o' 
+2018-03-28 19:43:19,444 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:47:07,919 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:47:07,934 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:47:07,934 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:47:07,934 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:47:07,934 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Illegal pattern character 'o' 
+2018-03-28 19:47:07,951 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:48:17,510 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-03-28 19:48:17,588 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-03-28 19:48:17,604 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-03-28 19:48:17,604 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-03-28 19:48:17,604 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Illegal pattern character 'o' 
+2018-03-28 19:48:17,635 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

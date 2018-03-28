@@ -8,10 +8,16 @@ import org.testng.*;
 import west.com.OxygenThree.utility.FileSystems;
 import west.com.OxygenThree.utility.ExcelUtils;
 import org.apache.log4j.xml.DOMConfigurator;
+
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
 import org.apache.log4j.*;
 import west.com.OxygenThree.utility.Log;
 import west.com.OxygenThree.utility.RunningEnv;
 import west.com.OxygenThree.utility.StringOp;
+import west.com.OxygenThree.utility.timeUtils;
+import west.com.OxygenThree.utility.timeUtils.*;
 
 public class DebugUtils {
 	//static WebDriver driver;
@@ -364,24 +370,24 @@ public class DebugUtils {
 		
 		//Verify Function createAnExcel
 		//------------------------------------------------------------------------------
-		String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
-		String sSheet="Result";
-		boolean bRtn;
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
+		//String sSheet="Result";
+		//boolean bRtn;
 		//String sValue;
 		//String sFormat="";
-		String sFormat="Report Names|Test Result";
-		String sDelimiter="\\|";  //Split by ,
+		//String sFormat="Report Names|Test Result";
+		//String sDelimiter="\\|";  //Split by ,
 		
 		//int iUsed;
-		try {
-			bRtn=ExcelUtils.CreateAnExcel(sPath, sSheet, sFormat,sDelimiter);
-			System.out.println(String.valueOf(bRtn));
+		//try {
+		//	bRtn=ExcelUtils.CreateAnExcel(sPath, sSheet, sFormat,sDelimiter);
+		//	System.out.println(String.valueOf(bRtn));
 			
 		
-		} catch (Exception e) {
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 		//-----------------------------------------------------------------------------------------
 
 				
@@ -430,6 +436,69 @@ public class DebugUtils {
 		//==============================================================================================
 		//&&&&&&&&&&&&&&&&&&    StringOp Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
 		//==============================================================================================
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    TimeUtils Starts                                  &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+
+				
+		//Verify Function getTimeString
+		//------------------------------------------------------------------------------
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_TestResult.xlsx";
+		//String sTest="hi,I,m,paul,Second";
+		//String sDelimiter="\\,";  //Split by ,
+			
+						
+				
+		try {
+			Date dNow = new Date();
+			System.out.println(dNow.toString());
+			
+			
+			 SimpleDateFormat dateFormatter = new SimpleDateFormat("E, y-M-d 'at' h:m:s a z");
+		       System.out.println("Format 1:   " + dateFormatter.format(dNow));
+		       // Shows  "Mon, 2012-10-8 at 8:17:6 AM EDT"
+
+		       dateFormatter = new SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a zzz");
+		       System.out.println("Format 2:   " + dateFormatter.format(dNow));
+		       // Shows  "Mon 2012.10.08 at 08:17:06 AM EDT"
+
+		       dateFormatter = new SimpleDateFormat("EEEE, MMMM d, yyyy");
+		       System.out.println("Format 3:   " + dateFormatter.format(dNow));
+		       
+		       dateFormatter = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+		       System.out.println("Format 4:   " + dateFormatter.format(dNow));
+		       // Shows  "Monday, October 8, 2012"
+
+		       // SimpleDateFormat can be used to control the date/time display format:
+		       //   E (day of week): 3E or fewer (in text xxx), >3E (in full text)
+		       //   M (month): M (in number), MM (in number with leading zero)
+		       //              3M: (in text xxx), >3M: (in full text full)
+		       //   h (hour): h, hh (with leading zero)
+		       //   m (minute)
+		       //   s (second)
+		       //   a (AM/PM)
+		       //   H (hour in 0 to 23)
+		       //   z (time zone)
+		       System.out.println("date:"+ timeUtils.getTimeString(dNow.toString(), "dow mon dd hh:mm:ss zzz yyyy", "yyyy-MM-dd HH:mm"));
+							
+						
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//-----------------------------------------------------------------------------------------
+
+				
+				
+				
+				
+				
+				
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    TimeUtils Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+						
 				
 
 		
