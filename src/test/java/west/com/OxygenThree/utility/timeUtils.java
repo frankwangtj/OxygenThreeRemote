@@ -13,15 +13,16 @@ public class timeUtils {
 	  //#	Function String getTimeString ()
 	  //#	Purpose:	the String of timestamp. 
 	  //# 	Purpose:    create file name with the timestring    
-	  //# 	Parameters: 
-	  //#	Return :  timestamp string
+	  //# 	Parameters:  String returnFormat
+	  //#                Format is "yyyy_MM_dd_HH_mm_ss"
+	  //#	Return :  timestamp with underscore string
 	  //#	Author: Frank
 	  //#	Created:	March 28, 2018
 	  //# Last modified: 
 	  //# How to test it
 	  //##############################################################################################################################
 
-	  public static String getTimeString(String myDate, String returnFormat, String myFormat) throws Exception {
+	  public static String getTimeString(String returnFormat) throws Exception {
 		  String sRtn="";
 		  String sFunction="|Class Utils.TimeUtils | Method getTimeString |";
 		  if (Constant.bDebugMode) {
@@ -29,12 +30,12 @@ public class timeUtils {
 		  }
 		  Log.info("Function---"+sFunction+"--- gets Started");
 		  try{
-			  Date date=null;
-			  DateFormat dateFormat=new SimpleDateFormat(returnFormat);
-			 
-			  date = new SimpleDateFormat(myFormat, Locale.ENGLISH).parse(myDate);
-			  sRtn=dateFormat.format(date);
-			  			  			  
+			  SimpleDateFormat dateFormatter = new SimpleDateFormat("E, y-M-d 'at' h:m:s a z");
+			  dateFormatter = new SimpleDateFormat(returnFormat);
+			  Date dNow = new Date();
+			  sRtn=dateFormatter.format(dNow);
+			  
+			 		  			  			  
 			  if (Constant.bDebugMode) {
 				  System.out.println("The return value is---- " + sRtn + "----");
 				  Log.info("The return value is---- " + sRtn + "----");
@@ -45,7 +46,7 @@ public class timeUtils {
 			  Log.info("Function---"+sFunction+"--- gets completed");
 			  
 		  }catch (Exception e){
-			  sRtn = myDate;
+			  sRtn = "failed";
 			  if (Constant.bDebugMode) {
 				
 				  System.out.println("Function---"+sFunction+"--- gets Failed");
