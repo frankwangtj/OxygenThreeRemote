@@ -14,6 +14,7 @@ import java.text.SimpleDateFormat;
 
 import org.apache.log4j.*;
 import west.com.OxygenThree.utility.Log;
+import west.com.OxygenThree.utility.MISUtils;
 import west.com.OxygenThree.utility.RunningEnv;
 import west.com.OxygenThree.utility.StringOp;
 import west.com.OxygenThree.utility.timeUtils;
@@ -450,15 +451,15 @@ public class DebugUtils {
 			
 						
 				
-		try {
-			String sFormat="yyyy_MM_dd_HH_mm_ss";
-		    System.out.println("date:"+ timeUtils.getTimeString(sFormat));
+		//try {
+		//	String sFormat="yyyy_MM_dd_HH_mm_ss";
+		//  System.out.println("date:"+ timeUtils.getTimeString(sFormat));
 							
 						
-		} catch (Exception e) {
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 		//-----------------------------------------------------------------------------------------
 
 				
@@ -470,6 +471,41 @@ public class DebugUtils {
 		//==============================================================================================
 		//&&&&&&&&&&&&&&&&&&    TimeUtils Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
 		//==============================================================================================
+		
+		
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    MISUtils Starts                                  &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+
+						
+		//Verify Function createMISTestResult
+		//------------------------------------------------------------------------------
+		
+					
+								
+						
+		try {
+			boolean bRtn1;
+			bRtn1= MISUtils.createMISTestResult();
+			
+									
+								
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//-----------------------------------------------------------------------------------------
+
+						
+						
+						
+						
+						
+						
+		//==============================================================================================
+		//&&&&&&&&&&&&&&&&&&    MISUtils Ends !!!!!                              &&&&&&&&&&&&&&&&&&&&
+		//==============================================================================================
+								
 						
 				
 

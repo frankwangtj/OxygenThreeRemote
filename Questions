@@ -44,3 +44,10 @@ Answer: Date dNow = new Date();
 		       //   a (AM/PM)
 		       //   H (hour in 0 to 23)
 		       //   z (time zone)
+		       
+Question: why System.getProperty("user.dir") not working in ini file?
+Answer System.getProperty("user.dir") is a function, you can not place it in ini config file
+
+Question: String sDelimiter format is different in code and in ini
+Answer: in Code: String sDelimiter="\\|";
+        in ini:  ResultFormatDelimiter=\|

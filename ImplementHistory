@@ -25,3 +25,4 @@
 . New Fun createAnExcel (default header)	----is working -- March 15, 2018
 . New Fun getSplitStr						----is working -- March 21, 2018
 . New Fun getTimeString 					----is working -- April 03, 2018
+. New Fun createMISTestResult				----is working -- April 04, 2018
