@@ -352,7 +352,9 @@ public class DebugUtils {
 		//Verify Function getRowUsed
 		//------------------------------------------------------------------------------
 		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\DataDrivenDataSet\\OnlineStore_DataDriven_Login.xlsx";
+		//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\MISTestResult_2018_04_04_13_28_02.xlsx"; 
 		//String sSheet="sheet1";
+		//String sSheet="MISTestResult";
 		//boolean bRtn;
 		//String sValue;
 		//int iUsed;
@@ -484,17 +486,44 @@ public class DebugUtils {
 					
 								
 						
-		try {
-			boolean bRtn1;
-			bRtn1= MISUtils.createMISTestResult();
+		//try {
+		//	boolean bRtn1;
+		//	bRtn1= MISUtils.createMISTestResult();
 			
 									
 								
-		} catch (Exception e) {
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 		//-----------------------------------------------------------------------------------------
+		
+		//Verify Function appendRowData
+		//------------------------------------------------------------------------------
+				
+						
+										
+								
+		try {
+			boolean bRtn1;
+			 String sKey;
+			 String sSection="PMIS_1_1_4_Single";
+			sKey="TestResultPath";
+			String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\MISTestResult_2018_04_04_13_28_02.xlsx"; 
+			//String sFile=System.getProperty("user.dir")+FileSystems.getConfigFromINI(sSection, sKey);
+			//String sFile1="MISTestResult_2018_04_04_13_28_02.xlsx";
+			String sSheet="MISTestResult";
+			String arrInfo="Call Summary|test Result|Test Result|";
+			bRtn1= MISUtils.appendRowData(sPath, sSheet, arrInfo);
+					
+											
+										
+			} catch (Exception e) {
+					// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//-----------------------------------------------------------------------------------------
+
 
 						
 						

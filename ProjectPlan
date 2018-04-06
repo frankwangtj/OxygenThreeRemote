@@ -8,5 +8,5 @@ Implement flexible Config
  - .txt for config per proj	--is done	-----March 13, 2018
 Implement dataDriven test
 --Program createAnExcelFile
---Program writeResultInExcel (from array)
+--Program writeResultInExcel (from String with |)
 ToBeContinue2	

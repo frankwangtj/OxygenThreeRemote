@@ -3014,3 +3014,360 @@
 2018-04-04 13:28:03,474 INFO  [Log] Function---|Class MISUtils | Method createMISTestResult |--- gets succeed 
 2018-04-04 13:28:03,474 INFO  [Log] Function---|Class MISUtils | Method createMISTestResult |--- gets completed 
 2018-04-04 13:28:03,490 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-05 08:40:29,195 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-05 08:40:29,211 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-05 08:40:29,211 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-05 08:40:29,211 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-05 08:40:29,211 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-05 08:40:33,267 INFO  [Log] Excel sheet opened 
+2018-04-05 08:40:33,267 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-05 08:40:33,267 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-05 08:40:33,267 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-05 08:40:33,267 INFO  [Log] Total number of Row used return as < 0 >. 
+2018-04-05 08:40:33,267 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-05 08:40:33,267 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-05 08:40:33,267 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-05 08:57:36,226 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-05 08:57:36,226 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-05 08:57:36,226 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-05 08:57:36,226 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-05 08:57:36,226 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-05 08:57:36,959 INFO  [Log] Excel sheet opened 
+2018-04-05 08:57:36,959 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-05 08:57:36,959 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-05 08:57:36,959 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-05 08:57:36,959 INFO  [Log] Total number of Row used return as < 2 >. 
+2018-04-05 08:57:36,959 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-05 08:57:36,959 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-05 08:57:36,975 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:05:26,549 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:05:26,549 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:05:26,549 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:05:26,611 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:05:26,611 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:05:26,611 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:05:34,895 INFO  [Log] Excel sheet opened 
+2018-04-06 18:05:34,895 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:05:34,895 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:05:34,895 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx--- NOT Existed 
+2018-04-06 18:05:34,895 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:05:34,895 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:05:34,895 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:10:05,263 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:12:04,001 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:12:04,016 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:12:04,016 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:12:04,016 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:12:04,016 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:12:04,016 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:12:04,797 INFO  [Log] Excel sheet opened 
+2018-04-06 18:12:04,797 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:12:04,797 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:12:04,797 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx--- NOT Existed 
+2018-04-06 18:12:04,797 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:12:04,797 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:12:04,953 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:13:08,674 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:13:08,674 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:13:08,674 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:13:08,690 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:13:08,690 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:13:08,690 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:13:09,284 INFO  [Log] Excel sheet opened 
+2018-04-06 18:13:09,284 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:13:09,284 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:13:09,284 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx--- NOT Existed 
+2018-04-06 18:13:09,284 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:13:09,284 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:13:09,299 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:15:12,677 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:17:18,890 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:18:17,706 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:18:17,721 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:18:17,721 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:18:17,721 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:18:17,721 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:18:17,721 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:18:18,252 INFO  [Log] Excel sheet opened 
+2018-04-06 18:18:18,252 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:18:18,252 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:18:18,252 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx--- NOT Existed 
+2018-04-06 18:18:18,252 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:18:18,252 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:18:18,267 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:18:28,432 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:19:46,031 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:19:51,600 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:19:51,616 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:19:51,616 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:19:51,616 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:20:05,620 INFO  [Log] Excel sheet opened 
+2018-04-06 18:20:05,620 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:20:05,620 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:22:02,681 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:22:02,681 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:22:02,681 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:22:02,697 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:22:02,697 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:22:02,697 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:22:10,076 INFO  [Log] Excel sheet opened 
+2018-04-06 18:22:10,076 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:22:10,076 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:22:10,076 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:22:10,076 INFO  [Log] Total number of Row used return as < 0 >. 
+2018-04-06 18:22:10,076 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:22:10,076 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:22:10,076 INFO  [Log] The Excel has--- 0--- Rows Used 
+2018-04-06 18:22:10,076 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:22:10,076 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:22:10,076 ERROR [Log] |Class Utils.ExcelUtils | Method appendRowData |Exception desc : null 
+2018-04-06 18:22:10,124 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:23:49,500 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:23:49,500 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:23:49,500 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:23:49,500 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:23:49,500 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:23:49,500 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:23:50,140 INFO  [Log] Excel sheet opened 
+2018-04-06 18:23:50,140 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:23:50,140 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:23:50,140 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:23:50,140 INFO  [Log] Total number of Row used return as < 0 >. 
+2018-04-06 18:23:50,140 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:23:50,140 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:23:50,140 INFO  [Log] The Excel has--- 0--- Rows Used 
+2018-04-06 18:23:50,140 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:23:50,156 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:23:50,156 ERROR [Log] |Class Utils.ExcelUtils | Method appendRowData |Exception desc : null 
+2018-04-06 18:23:50,172 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:25:22,685 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:25:22,685 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:25:22,685 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:25:22,685 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:25:22,685 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:25:22,685 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:25:23,247 INFO  [Log] Excel sheet opened 
+2018-04-06 18:25:23,247 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:25:23,247 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:25:23,247 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:25:23,247 INFO  [Log] Total number of Row used return as < 1 >. 
+2018-04-06 18:25:23,247 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:25:23,247 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:25:23,247 INFO  [Log] The Excel has--- 1--- Rows Used 
+2018-04-06 18:25:23,247 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:25:23,263 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:25:23,263 ERROR [Log] |Class Utils.ExcelUtils | Method appendRowData |Exception desc : null 
+2018-04-06 18:25:23,278 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:27:10,139 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:27:10,139 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:27:10,139 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:27:10,139 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:27:10,139 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:27:10,139 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:27:10,718 INFO  [Log] Excel sheet opened 
+2018-04-06 18:27:10,718 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:27:10,718 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:27:10,718 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:27:10,718 INFO  [Log] Total number of Row used return as < 1 >. 
+2018-04-06 18:27:10,718 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:27:10,718 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:27:10,718 INFO  [Log] The Excel has--- 1--- Rows Used 
+2018-04-06 18:27:10,718 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:27:10,718 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:27:10,718 ERROR [Log] |Class Utils.ExcelUtils | Method appendRowData |Exception desc : null 
+2018-04-06 18:27:10,859 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:27:33,061 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:27:57,658 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:28:12,572 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:28:17,159 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:28:17,159 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:28:17,159 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:29:18,063 INFO  [Log] Excel sheet opened 
+2018-04-06 18:29:20,888 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:29:23,390 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:29:47,118 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:29:47,118 INFO  [Log] Total number of Row used return as < 1 >. 
+2018-04-06 18:29:47,118 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:29:47,118 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:30:06,402 INFO  [Log] The Excel has--- 1--- Rows Used 
+2018-04-06 18:36:31,195 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:36:31,195 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:36:31,195 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:36:31,195 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:36:31,195 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:36:31,195 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:36:35,001 INFO  [Log] Excel sheet opened 
+2018-04-06 18:36:35,001 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:36:35,001 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:36:35,001 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:36:35,001 INFO  [Log] Total number of Row used return as < 1 >. 
+2018-04-06 18:36:35,001 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:36:35,001 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:36:35,001 INFO  [Log] The Excel has--- 1--- Rows Used 
+2018-04-06 18:36:35,001 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:36:35,001 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:36:35,001 ERROR [Log] |Class Utils.ExcelUtils | Method appendRowData |Exception desc : null 
+2018-04-06 18:36:35,050 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:38:00,454 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:38:00,469 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:38:00,469 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:38:00,469 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:38:00,469 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:38:00,469 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:38:01,032 INFO  [Log] Excel sheet opened 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:38:01,032 INFO  [Log] Total number of Row used return as < 1 >. 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:38:01,032 INFO  [Log] The Excel has--- 1--- Rows Used 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets Started 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
+2018-04-06 18:38:01,032 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:38:01,110 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:38:01,110 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:38:01,110 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:38:01,313 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:38:01,313 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:38:01,313 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:38:01,313 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:38:01,313 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:38:01,313 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:38:01,328 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:38:01,328 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:38:01,328 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:38:01,328 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:38:01,328 ERROR [Log] |Class Utils.ExcelUtils | Method appendRowData |Exception desc : null 
+2018-04-06 18:38:01,344 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:43:56,509 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:43:56,525 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:43:56,557 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:43:56,557 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:43:56,557 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:43:56,557 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:44:08,055 INFO  [Log] Excel sheet opened 
+2018-04-06 18:44:08,055 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:44:08,055 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:44:08,055 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:44:08,055 INFO  [Log] Total number of Row used return as < 0 >. 
+2018-04-06 18:44:08,055 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:44:08,055 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:44:08,055 INFO  [Log] The Excel has--- 0--- Rows Used 
+2018-04-06 18:44:08,055 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets Started 
+2018-04-06 18:44:08,055 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
+2018-04-06 18:44:08,071 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
+2018-04-06 18:44:08,071 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:44:08,944 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:44:08,944 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:44:08,960 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:44:09,709 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:44:09,709 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:44:09,709 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:44:09,709 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:44:09,709 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:44:09,709 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:44:09,819 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:44:09,819 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:44:09,819 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Failed 
+2018-04-06 18:44:09,819 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets completed 
+2018-04-06 18:44:09,819 ERROR [Log] |Class Utils.ExcelUtils | Method appendRowData |Exception desc : null 
+2018-04-06 18:44:09,928 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:46:16,918 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:46:35,913 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:46:39,875 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:46:39,875 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:46:39,875 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:46:39,891 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:46:53,401 INFO  [Log] Excel sheet opened 
+2018-04-06 18:46:53,417 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:46:53,417 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:47:00,360 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:47:00,360 INFO  [Log] Total number of Row used return as < 0 >. 
+2018-04-06 18:47:00,360 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:47:00,376 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:47:08,909 INFO  [Log] The Excel has--- 0--- Rows Used 
+2018-04-06 18:47:45,944 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets Started 
+2018-04-06 18:47:45,944 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
+2018-04-06 18:47:45,944 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
+2018-04-06 18:48:34,830 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:50:05,123 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:50:05,123 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:50:05,139 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:50:49,679 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:50:52,186 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:51:08,987 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:51:09,018 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:51:09,034 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:51:09,034 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:51:10,018 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:51:10,018 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:52:36,241 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:52:36,257 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:52:36,257 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:52:36,257 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:52:36,257 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:52:36,257 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:52:36,897 INFO  [Log] Excel sheet opened 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:52:36,897 INFO  [Log] Total number of Row used return as < 1 >. 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:52:36,897 INFO  [Log] The Excel has--- 1--- Rows Used 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets Started 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:52:36,897 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:52:36,897 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:52:36,913 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:52:36,991 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:52:36,991 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:52:36,991 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:52:36,991 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:52:36,991 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:52:36,991 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:52:37,022 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:52:37,022 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:52:37,022 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets succeed 
+2018-04-06 18:52:37,022 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:54:31,799 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-06 18:54:31,799 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets Started 
+2018-04-06 18:54:31,799 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets Started 
+2018-04-06 18:54:31,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:54:31,799 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:54:31,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:54:32,331 INFO  [Log] Excel sheet opened 
+2018-04-06 18:54:32,331 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets succeed 
+2018-04-06 18:54:32,331 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setExcelFile |--- gets completed 
+2018-04-06 18:54:32,331 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets Started 
+2018-04-06 18:54:32,331 INFO  [Log] Total number of Row used return as < 0 >. 
+2018-04-06 18:54:32,331 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets succeed 
+2018-04-06 18:54:32,331 INFO  [Log] Function---|Class Utils.ExcelUtils | Method getRowUsed |--- gets completed 
+2018-04-06 18:54:32,331 INFO  [Log] The Excel has--- 0--- Rows Used 
+2018-04-06 18:54:32,331 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets Started 
+2018-04-06 18:54:32,346 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets succeed 
+2018-04-06 18:54:32,346 INFO  [Log] Function---|Class Utils.StringOp | Method getSplitStr |--- gets completed 
+2018-04-06 18:54:32,346 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:54:32,378 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:54:32,378 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:54:32,378 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:54:32,456 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:54:32,456 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:54:32,456 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:54:32,471 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:54:32,471 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:54:32,471 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:54:32,487 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:54:32,487 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:54:32,487 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets Started 
+2018-04-06 18:54:32,487 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-06 18:54:32,487 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\TestResult\MISTestResult_2018_04_04_13_28_02.xlsx ---Exists 
+2018-04-06 18:54:32,487 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-06 18:54:32,534 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets succeed 
+2018-04-06 18:54:32,534 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
+2018-04-06 18:54:32,534 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets succeed 
+2018-04-06 18:54:32,534 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  

@@ -26,3 +26,4 @@
 . New Fun getSplitStr						----is working -- March 21, 2018
 . New Fun getTimeString 					----is working -- April 03, 2018
 . New Fun createMISTestResult				----is working -- April 04, 2018
+. New Fun appendRowData						----is working -- April 06, 2018
