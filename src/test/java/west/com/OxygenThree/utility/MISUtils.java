@@ -190,6 +190,74 @@ public class MISUtils {
 		  
 	  }
 	  
+	//##############################################################################################################################
+	//#	Function boolean createReportFileName(String sTestCase)
+	//#	Purpose:	Create  MIS test Result name with timestamp. 
+	//#     Purpose:        working with other Excel functions to handle test result in framework
+	//# 	Parameters: 
+	//#	Return :        file name
+	//#	Author: Frank
+	//#	Created:	April 10, 2018
+	//#     Last modified: 
+	//#     How to test it
+	//##############################################################################################################################
+
+	public static String createReportFileName(String sTestCase) throws Exception {
+		String sFileName;
+		String sFullPath;		
+		String sFunction="|Class MISUtils | Method createFileName|";
+		if (Constant.bDebugMode) {
+			System.out.println("Function---"+sFunction+"--- gets Started");
+		}
+		Log.info("Function---"+sFunction+"--- gets Started");
+		try{
+			//String sFolder;
+			//sFolder=Constant.Path_Config;
+			String sKey;
+			String sSection="PMIS_1_1_4_Single";
+			//String sSection=Constant.Running_Build;
+			sKey="TestResultPath";
+			String sPath=System.getProperty("user.dir")+FileSystems.getConfigFromINI(sSection, sKey);
+			//String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\";
+			//sKey="PrefixTestResult";
+			//String sPrefix=FileSystems.getConfigFromINI(sSection, sKey);
+			String sPrefix=sTestCase;
+			sKey="FileExtTestREsult";
+			String sExt=FileSystems.getConfigFromINI(sSection, sKey);
+			sKey="ResultTimeStampFormat";
+			
+			String sTimeStamp=FileSystems.getConfigFromINI(sSection, sKey);
+			String sFullTimeStamp=timeUtils.getTimeString(sTimeStamp);
+			String sResultFileName=sPrefix +sFullTimeStamp+sExt;
+			sFullPath=sPath+sResultFileName;
+			
+			  
+			  			  			  
+			if (Constant.bDebugMode) {
+				System.out.println("The return value is---- " + sResultFileName + "----");
+				Log.info("The return value is---- " + sResultFileName + "----");
+				System.out.println("Function---"+sFunction+"--- gets succeed");
+				Log.info("Function---"+sFunction+"--- gets succeed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+				  
+		}catch (Exception e){
+			sFullPath=null;
+			if (Constant.bDebugMode) {
+					
+				System.out.println("Function---"+sFunction+"--- gets Failed");
+				Log.info("Function---"+sFunction+"--- gets Failed");
+				System.out.println("Function---"+sFunction+"--- gets completed");
+			}
+			Log.info("Function---"+sFunction+"--- gets completed");
+			Log.error(sFunction+"Exception desc : "+e.getMessage());
+			throw (e);
+		}
+			  return sFullPath;
+
+	}
+	  
 		
 	}
 

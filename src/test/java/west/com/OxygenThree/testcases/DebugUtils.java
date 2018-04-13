@@ -478,7 +478,30 @@ public class DebugUtils {
 		//==============================================================================================
 		//&&&&&&&&&&&&&&&&&&    MISUtils Starts                                  &&&&&&&&&&&&&&&&&&&&
 		//==============================================================================================
-
+		
+		
+		//Verify Function createReportFileName
+		//------------------------------------------------------------------------------
+				
+							
+										
+								
+		try {
+		String sName;
+		String sTest="ListAllReports";
+		sName= MISUtils.createReportFileName(sTest);
+		System.out.println(sName);
+						
+										
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//-----------------------------------------------------------------------------------------
+				
+				//Verify Function appendRowData
+				//------------------------------------------------------------------------------
+						
 						
 		//Verify Function createMISTestResult
 		//------------------------------------------------------------------------------
@@ -504,25 +527,25 @@ public class DebugUtils {
 						
 										
 								
-		try {
-			boolean bRtn1;
-			 String sKey;
-			 String sSection="PMIS_1_1_4_Single";
-			sKey="TestResultPath";
-			String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\MISTestResult_2018_04_04_13_28_02.xlsx"; 
+		//try {
+		//	boolean bRtn1;
+		//	 String sKey;
+		//	 String sSection="PMIS_1_1_4_Single";
+		//	sKey="TestResultPath";
+		//	String sPath=System.getProperty("user.dir")+"\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\MISTestResult_2018_04_04_13_28_02.xlsx"; 
 			//String sFile=System.getProperty("user.dir")+FileSystems.getConfigFromINI(sSection, sKey);
 			//String sFile1="MISTestResult_2018_04_04_13_28_02.xlsx";
-			String sSheet="MISTestResult";
-			String arrInfo="Call Summary|test Result|Test Result|";
-			bRtn1= MISUtils.appendRowData(sPath, sSheet, arrInfo);
+		//	String sSheet="MISTestResult";
+		//	String arrInfo="Call Summary|test Result|Test Result|";
+		//	bRtn1= MISUtils.appendRowData(sPath, sSheet, arrInfo);
 					
 											
 										
-			} catch (Exception e) {
-					// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			//-----------------------------------------------------------------------------------------
+		//	} catch (Exception e) {
+		//			// TODO Auto-generated catch block
+		//		e.printStackTrace();
+		//	}
+		//-----------------------------------------------------------------------------------------
 
 
 						

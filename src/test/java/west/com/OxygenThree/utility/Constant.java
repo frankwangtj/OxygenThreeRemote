@@ -20,6 +20,8 @@ public class Constant {
 	//Google
 	public static final String URL_Google = "http://www.google.ca";
 	
+	//provide section info for config ini
+	public static final String Running_Build="PMIS_1_1_4_Single";
 	//Online store Application
     public static final String URL_OnlineStore = "http://www.store.demoqa.com";
     public static final String Username_OnlineStore = "testuser_12345678";

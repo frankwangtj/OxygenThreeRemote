@@ -3371,3 +3371,159 @@
 2018-04-06 18:54:32,534 INFO  [Log] Function---|Class Utils.ExcelUtils | Method setCellData |--- gets completed 
 2018-04-06 18:54:32,534 INFO  [Log] Function---|Class Utils.ExcelUtils | Method appendRowData |--- gets succeed 
 2018-04-06 18:54:32,534 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-10 13:25:33,869 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-10 13:25:33,885 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets Started 
+2018-04-10 13:25:33,885 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:25:33,885 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:25:33,885 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:25:33,885 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:25:33,885 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:25:33,885 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:25:33,885 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:25:33,885 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:25:34,010 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:25:34,010 INFO  [Log] The Value is----\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\---- 
+2018-04-10 13:25:34,010 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:25:34,010 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:25:34,010 INFO  [Log] The Value is----\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\---- 
+2018-04-10 13:25:34,010 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:25:34,010 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:25:34,010 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:25:34,010 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:25:34,025 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:25:34,025 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:25:34,025 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:25:34,025 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:25:34,025 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:25:34,025 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:25:34,041 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:25:34,041 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Failed 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-04-10 13:25:34,041 ERROR [Log] |Class Utils.TimeUtils | Method getTimeString |Exception desc : Illegal pattern character 'x' 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets Failed 
+2018-04-10 13:25:34,041 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets completed 
+2018-04-10 13:25:34,041 ERROR [Log] |Class MISUtils | Method createFileName|Exception desc : Illegal pattern character 'x' 
+2018-04-10 13:25:34,057 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-10 13:29:26,168 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-10 13:29:26,168 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets Started 
+2018-04-10 13:29:26,201 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:29:26,201 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:29:26,201 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:29:26,201 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:29:26,201 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:29:26,263 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:29:26,263 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:29:26,263 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:29:26,513 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:29:26,513 INFO  [Log] The Value is----\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\---- 
+2018-04-10 13:29:26,513 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:29:26,575 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:29:26,575 INFO  [Log] The Value is----\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\---- 
+2018-04-10 13:29:26,575 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:29:26,575 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:29:26,575 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:29:26,575 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:29:26,591 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:29:26,591 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:29:26,591 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:29:26,591 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:29:26,591 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:29:26,653 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:29:26,653 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:29:26,653 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:29:26,653 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:29:26,653 INFO  [Log] The Value is----yyyy_MM_dd_HH_mm_ss---- 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:29:26,653 INFO  [Log] The Value is----yyyy_MM_dd_HH_mm_ss---- 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:29:26,653 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-04-10 13:29:26,793 INFO  [Log] The return value is---- 2018_04_10_13_29_26---- 
+2018-04-10 13:29:26,793 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets succeed 
+2018-04-10 13:29:26,793 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-04-10 13:29:26,793 INFO  [Log] The return value is---- ListAllReports2018_04_10_13_29_26.xlsx---- 
+2018-04-10 13:29:26,793 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets succeed 
+2018-04-10 13:29:26,793 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets completed 
+2018-04-10 13:29:26,809 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
+2018-04-10 13:34:50,752 INFO  [Log] Start to test--|Class-testcases|Method-DebugUtils|  
+2018-04-10 13:34:50,752 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets Started 
+2018-04-10 13:34:50,768 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:34:50,768 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:34:50,768 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:34:50,768 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:34:50,768 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:34:50,768 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:34:50,768 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:34:50,768 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:34:50,784 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:34:50,784 INFO  [Log] The Value is----\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\---- 
+2018-04-10 13:34:50,784 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:34:50,784 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:34:50,799 INFO  [Log] The Value is----\\src\\test\\java\\west\\com\\OxygenThree\\TestResult\\---- 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:34:50,799 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:34:50,799 INFO  [Log] The Value is----.xlsx---- 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets Started 
+2018-04-10 13:34:50,799 INFO  [Log] The file--- C:\002_WebWorkSpace\gitroot\OxygenThreeClonedRemote\OxygenThreeRemote\src\test\java\west\com\OxygenThree\ConfigData\ProjectConfig.ini ---Exists 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method isFileExists |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets succeed 
+2018-04-10 13:34:50,799 INFO  [Log] The Value is----yyyy_MM_dd_HH_mm_ss---- 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getKeyValueFromINI |--- gets completed 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets succeed 
+2018-04-10 13:34:50,799 INFO  [Log] The Value is----yyyy_MM_dd_HH_mm_ss---- 
+2018-04-10 13:34:50,799 INFO  [Log] Function---|Class Utils.FileSystems | Method getConfigFromINI |--- gets completed 
+2018-04-10 13:34:50,815 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets Started 
+2018-04-10 13:34:50,815 INFO  [Log] The return value is---- 2018_04_10_13_34_50---- 
+2018-04-10 13:34:50,815 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets succeed 
+2018-04-10 13:34:50,815 INFO  [Log] Function---|Class Utils.TimeUtils | Method getTimeString |--- gets completed 
+2018-04-10 13:34:50,815 INFO  [Log] The return value is---- ListAllReports2018_04_10_13_34_50.xlsx---- 
+2018-04-10 13:34:50,815 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets succeed 
+2018-04-10 13:34:50,815 INFO  [Log] Function---|Class MISUtils | Method createFileName|--- gets completed 
+2018-04-10 13:34:50,815 INFO  [Log] Complete the test--|Class-testcases|Method-DebugUtils|  
